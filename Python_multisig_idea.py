@@ -1,22 +1,14 @@
-accepted_1 = "cage"
-accepted_2 = "dragon"
-accepted_3 = "key"
-message_pt1 = "Veritas"
-message_pt2 = "means \"truth\"."
+accepted_passwords = ["cage", "dragon", "key"]
+message = ["Veritas", "means \"truth\"."]
 current_value = 0
 minimum_acceptable = 2
-guess = ""
-guess2 = ""
-guess_count = 0
-guess_count2 = 0
-guess_count_same = 0
+guess = guess2 = ""
+guess_count = guess_count2 = 0
 guess_limit = 3
-out_of_guesses = False
-out_of_guesses2 = False
-left = guess_limit
-left2 = guess_limit
+out_of_guesses = out_of_guesses2 = False
+left = left2 = guess_limit
 
-while guess != accepted_1 and guess != accepted_2 and guess != accepted_3 and not(out_of_guesses):
+while guess not in accepted_passwords and not(out_of_guesses):
     if guess_count < guess_limit:
         print(f"You have {left} guesses!")
         left -= 1
@@ -31,7 +23,7 @@ else:
     print("Correct!")
     current_value += 1
 
-while guess2 != accepted_1 and guess2 != accepted_2 and guess2 != accepted_3 and not(out_of_guesses2):
+while guess2 not in accepted_passwords and not(out_of_guesses2):
     if guess_count2 < guess_limit:
         print(f"You have {left2} guesses!")
         left2 -= 1
@@ -45,7 +37,7 @@ if out_of_guesses2:
 elif guess2 == guess:
     print(f"You have 1 guess, because you tried to use the same password!")
     guess2 = input("Give me a second (and different) password: ")
-    if guess2 == accepted_1 or guess2 == accepted_2 or guess2 == accepted_3 and guess2 != guess:
+    if guess2 in accepted_passwords and guess2 != guess:
         print("Correct second password!")
         current_value += 1
     else:
@@ -55,6 +47,6 @@ else:
     current_value += 1
     
 if current_value == minimum_acceptable:
-    print(f"\n{message_pt1} {message_pt2}")
+    print(f"\n{message[0]} {message[1]}")
 else:
     print("\nThe process failed!")
