@@ -22,29 +22,27 @@ if out_of_guesses:
 else:
     print("Correct!")
     current_value += 1
-
-while guess2 not in accepted_passwords and not(out_of_guesses2):
-    if guess_count2 < guess_limit:
-        print(f"You have {left2} guesses!")
-        left2 -= 1
+    while guess2 not in accepted_passwords and not(out_of_guesses2):
+        if guess_count2 < guess_limit:
+            print(f"You have {left2} guesses!")
+            left2 -= 1
+            guess2 = input("Give me a second (and different) password: ")
+            guess_count2 += 1
+        else:
+            out_of_guesses2 = True
+    if out_of_guesses2:
+        print("Out of guesses for the second password!")
+    elif guess2 == guess:
+        print(f"You have 1 guess, because you tried to use the same password!")
         guess2 = input("Give me a second (and different) password: ")
-        guess_count2 += 1
+        if guess2 in accepted_passwords and guess2 != guess:
+            print("Correct second password!")
+            current_value += 1
+        else:
+            out_of_guesses2 = True
     else:
-        out_of_guesses2 = True
-        
-if out_of_guesses2:
-    print("Out of guesses!")
-elif guess2 == guess:
-    print(f"You have 1 guess, because you tried to use the same password!")
-    guess2 = input("Give me a second (and different) password: ")
-    if guess2 in accepted_passwords and guess2 != guess:
         print("Correct second password!")
         current_value += 1
-    else:
-        out_of_guesses2 = True
-else:
-    print("Correct second password!")
-    current_value += 1
     
 if current_value == minimum_acceptable:
     print(f"\n{message[0]} {message[1]}")
