@@ -1,5 +1,4 @@
 letters = "abcdefghijklmnopqrstuvwxyz"
-en_key = 1
 
 
 def invert(phrase):
