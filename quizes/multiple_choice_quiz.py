@@ -1,6 +1,6 @@
 points = 0
 accepted = "ABCDabcd"
-print("This is a mulptiple choice quiz. Answer correctly to get points.")
+print("This is a multiple choice quiz. Answer correctly to get points.")
 print("Which of the following is NOT a fully supported Python programming paradigm?")
 inp1 = input("A: object-oriented | B: structured | C: logic | D: all of the above\n")
 if inp1 not in accepted:
@@ -30,5 +30,5 @@ else:
     print("Wrong answer!")
 questions = (inp1, inp2, inp3)
 q = len(questions)
-print(f"Sucess rate: {round((points / q) * 100, 2)}%")
+print(f"Success rate: {round((points / q) * 100, 2)}%")
 print(f"Total points = {points}")
