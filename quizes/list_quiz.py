@@ -8,7 +8,7 @@ elif inp1 in scand_cntrs:
     points += 1
     print("Got it!")
 else:
-    print("Not in the list")
+    print("Not in the list!")
 eur_micros = ["Vatican City", "Monaco", "San Marino", "Liechtenstein", "Malta", "Andorra"]
 inp2 = input("2) European microstates: ")
 if inp2 in eur_micros:
