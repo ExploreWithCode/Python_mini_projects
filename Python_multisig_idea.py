@@ -8,7 +8,7 @@ guess_limit = 3
 out_of_guesses = out_of_guesses2 = False
 left = left2 = guess_limit
 
-while guess not in accepted_passwords and not(out_of_guesses):
+while guess not in accepted_passwords and not out_of_guesses:
     if guess_count < guess_limit:
         print(f"You have {left} guesses!")
         left -= 1
@@ -22,7 +22,7 @@ if out_of_guesses:
 else:
     print("Correct!")
     current_value += 1
-    while guess2 not in accepted_passwords and not(out_of_guesses2):
+    while guess2 not in accepted_passwords and not out_of_guesses2:
         if guess_count2 < guess_limit:
             print(f"You have {left2} guesses!")
             left2 -= 1
