@@ -20,5 +20,5 @@ else:
     print("Not in the list")
 questions = (inp1, inp2)
 q = len(questions)
-print(f"Success rate: {round((points / q) * 100, 2)}%")
-print(f"Total points = {points}")
+print(f"Success rate: {round((points/q)*100, 2)}%")
+print(f"Total points = {points}/{q}")
