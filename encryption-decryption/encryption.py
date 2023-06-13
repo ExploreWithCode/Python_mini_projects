@@ -10,7 +10,7 @@ def encrypt(text):
             result += shifted
         else:
             result += char
-    return result
+    return result[::-1]  # reversal of string
 
 
 res = encrypt(input("Enter the text you want to encrypt: \n"))  # encryption
