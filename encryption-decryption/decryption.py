@@ -10,8 +10,8 @@ def decrypt(text):
             result += shifted
         else:
             result += char
-    return result
+    return result[::-1]  # reversal of string to original direction
 
 
-res2 = input("Enter the text you want to decrypt: \n")
-print(f"Decrypted message: {decrypt(res2)}")
+res2 = decrypt(input("Enter the text you want to decrypt: \n"))  # decryption
+print(f"Decrypted message: {res2}")
