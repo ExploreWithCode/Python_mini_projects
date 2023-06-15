@@ -12,10 +12,10 @@ def encrypt(text):
             result += shifted
         else:
             result += char
-    return result
+    return result[::-1]  # reversal of string
 
 
-res = encrypt(input("Enter the text you want to encrypt: \n"))  # 1st encryption
+res = encrypt(input("Enter the text you want to encrypt: \n"))  # encryption
 print(f"Encrypted message: {res}")
 
 
@@ -28,7 +28,7 @@ def decrypt(text):
             result += shifted
         else:
             result += char
-    return result
+    return result[::-1]  # reversal of string to original direction
 
 
 print(f"Decrypted message: {decrypt(res)}")
