@@ -24,13 +24,20 @@ mn_d = round(avg - min(values), 2)  # deviation of the minimum value
 mxd = max(mn_d, mx_d)  # maximum deviation from the average
 
 dlist = []
+for n in values:
+  dif = abs(n - avg)
+  dlist.append(dif)
+  mnd =round(min(dlist), 2)  # minimum deviation from the average
+print(f"Mean: {avg} | Median: {mdn} | Mode: {md}")
+print(f"Standard deviation: {std} | Max deviation: {mxd} | Min deviation: {mnd}")
+
+'''dlistm = []
 d1 = abs(values[0] - avg)
 d2 = abs(values[1] - avg)
 d3 = abs(values[2] - avg)
 d4 = abs(values[3] - avg)
 d5 = abs(values[4] - avg)
 d6 = abs(values[5] - avg)
-dlist.append(d1), dlist.append(d2), dlist.append(d3), dlist.append(d4), dlist.append(d5), dlist.append(d6)
-mnd = min(dlist)  # minimum deviation from the average
-print(f"Mean: {avg} | Median: {mdn} | Mode: {md}")
-print(f"Standard deviation: {std} | Max deviation: {mxd} | Min deviation: {mnd}")
+dlistm.append(d1), dlistm.append(d2), dlistm.append(d3), dlistm.append(d4), dlistm.append(d5), dlistm.append(d6)
+mndm = min(dlistm)  # minimum deviation from the average (manual)
+print(f"Minimum deviation (manually): {mndm}")'''
