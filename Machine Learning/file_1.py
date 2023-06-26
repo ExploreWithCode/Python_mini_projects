@@ -25,9 +25,9 @@ mxd = max(mn_d, mx_d)  # maximum deviation from the average
 
 dlist = []
 for n in values:
-  dif = abs(n - avg)
-  dlist.append(dif)
-  mnd =round(min(dlist), 2)  # minimum deviation from the average
+    dif = abs(n - avg)
+    dlist.append(dif)
+    mnd =round(min(dlist), 2)  # minimum deviation from the average
 print(f"Mean: {avg} | Median: {mdn} | Mode: {md}")
 print(f"Standard deviation: {std} | Max deviation: {mxd} | Min deviation: {mnd}")
 
