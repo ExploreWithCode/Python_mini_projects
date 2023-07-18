@@ -16,8 +16,8 @@ v6 = float(input())
 values = [v1, v2, v3, v4, v5, v6]
 
 avg = round(numpy.mean(values), 2)  # mean = average
-mdn = numpy.median(values)  # median = middle value
-md = mode(values)  # most common (in case of a tie, the first value is printed)
+mdn = round(numpy.median(values), 2)  # median = middle value
+md = round(mode(values), 2)  # most common (in case of a tie, the first value is printed)
 std = round(numpy.std(values), 2)  # standard deviation
 mx_d = round(max(values) - avg, 2)  # deviation of the maximum value
 mn_d = round(avg - min(values), 2)  # deviation of the minimum value
@@ -27,9 +27,9 @@ dlist = []
 for n in values:
     dif = abs(n - avg)
     dlist.append(dif)
-    mnd =round(min(dlist), 2)  # minimum deviation from the average
+    mnd = round(min(dlist), 2)  # minimum deviation from the average
 print(f"Mean: {avg} | Median: {mdn} | Mode: {md}")
-print(f"Standard deviation: {std} | Max deviation: {mxd} | Min deviation: {mnd}")
+print(f"Standard deviation: {std} | Maximum deviation: {mxd} | Minimum deviation: {mnd}")
 
 '''dlistm = []
 d1 = abs(values[0] - avg)
@@ -39,5 +39,5 @@ d4 = abs(values[3] - avg)
 d5 = abs(values[4] - avg)
 d6 = abs(values[5] - avg)
 dlistm.append(d1), dlistm.append(d2), dlistm.append(d3), dlistm.append(d4), dlistm.append(d5), dlistm.append(d6)
-mndm = min(dlistm)  # minimum deviation from the average (manual)
-print(f"Minimum deviation (manually): {mndm}")'''
+mndm = round(min(dlistm), 2)  # minimum deviation from the average (manual)
+print(f"Min deviation (manually): {mndm}")'''
