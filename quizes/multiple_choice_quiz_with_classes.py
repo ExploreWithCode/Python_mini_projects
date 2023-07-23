@@ -28,8 +28,8 @@ def run_test(qstns):
             print("Correct!")
         else:
             print("Wrong answer!")
-    print(f"Success rate: {round((points / q) * 100, 2)}%")
-    print(f"Total points = {points} / {q}")
+    print(f"Success rate: {round((points/q) * 100, 2)}%")
+    print(f"Total points = {points}/{q}")
 
 
 run_test(questions)
