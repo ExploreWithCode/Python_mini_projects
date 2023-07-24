@@ -30,5 +30,5 @@ else:
     print("Wrong answer!")
 questions = (inp1, inp2, inp3)
 q = len(questions)
-print(f"Success rate: {round((points / q) * 100, 2)}%")
+print(f"Success rate: {round((points/q) * 100, 2)}%")
 print(f"Total points = {points}/{q}")
