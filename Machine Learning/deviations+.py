@@ -1,18 +1,16 @@
 from statistics import mode
 import numpy
-print("Give me the 1st value: ")
-v1 = float(input())
-print("Give me the 2nd value: ")
-v2 = float(input())
-print("Give me the 3rd value: ")
-v3 = float(input())
-print("Give me the 4th value: ")
-v4 = float(input())
-print("Give me the 5th value: ")
-v5 = float(input())
-print("Give me the 6th value: ")
-v6 = float(input())
-values = [v1, v2, v3, v4, v5, v6]
+values = []
+brk = "N"
+asdf = ""
+while asdf is not brk:
+    print("Enter a number:")
+    vl = float(input())
+    values.append(vl)
+    conf = input("Press anything to continue or 'N' to stop adding numbers. ")
+    if conf == brk:
+        break
+print(f"Values: {values}")
 
 avg = round(numpy.mean(values), 2)  # mean = average
 mdn = round(numpy.median(values), 2)  # median = middle value
