@@ -12,7 +12,7 @@ def encrypt(text):
                 shifted = alphabet[(alphabet.index(char) + pow(en_key, en_key2) + (en_key + en_key2)*2) % 26]
             else:
                 alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-                shifted = alphabet[(alphabet.index(char) + pow(en_key, en_key2) + (en_key + en_key2 + 1) * 2) % 26]
+                shifted = alphabet[(alphabet.index(char) + pow(en_key, en_key2) + (en_key + en_key2 + 1)*2) % 26]
             result += shifted
         else:
             result += char
@@ -29,10 +29,10 @@ def decrypt(text):
         if char.isalpha():
             if char.islower():
                 alphabet = 'abcdefghijklmnopqrstuvwxyz'
-                shifted = alphabet[(alphabet.index(char) - pow(en_key, en_key2) - (en_key + en_key2) * 2) % 26]
+                shifted = alphabet[(alphabet.index(char) - pow(en_key, en_key2) - (en_key + en_key2)*2) % 26]
             else:
                 alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-                shifted = alphabet[(alphabet.index(char) - pow(en_key, en_key2) - (en_key + en_key2 + 1) * 2) % 26]
+                shifted = alphabet[(alphabet.index(char) - pow(en_key, en_key2) - (en_key + en_key2 + 1)*2) % 26]
             result += shifted
         else:
             result += char
