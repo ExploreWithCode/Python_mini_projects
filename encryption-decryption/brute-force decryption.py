@@ -182,11 +182,18 @@ def decrypt_rev(text):
         result_25[::-1], result_26[::-1]
 
 
-res2 = input("Enter the text you want to decrypt: \n")
-print(f"Decryption attempts: {decrypt(res2)}")
-answer = input("Do you want to flip the result?")
-accepted_replies = ["yes", "y", "YES", "Y", "Yes"]
-if answer in accepted_replies:
-    print(decrypt_rev(res2))
-else:
-    print("The result will not be flipped.")
+vls = []
+brk = ["N", "n"]
+asdf = ""
+while asdf is not brk:
+    res2 = input("Enter the text you want to decrypt: \n")
+    print(f"Decryption attempts: {decrypt(res2)}")
+    accepted_replies = ["yes", "y", "YES", "Y", "Yes"]
+    answer = input(f"Do you want to flip the result? | Accepted replies: {accepted_replies} \n")
+    if answer in accepted_replies:
+        print(decrypt_rev(res2))
+    else:
+        print("The result will not be flipped.")
+    conf = input("Press anything to continue or 'N' to stop decrypting. ")
+    if conf in brk:
+        break
