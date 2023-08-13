@@ -8,6 +8,10 @@ def decrypt(text):
             alphabet = 'abcdefghijklmnopqrstuvwxyz' if char.islower() else 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
             shifted = alphabet[(alphabet.index(char) - pow(keys.en_key, keys.en_key2) - (keys.en_key + keys.en_key2)*2) % 26]
             result += shifted
+        elif char.isnumeric():
+            numbers = '1234567890'
+            shifted = numbers[(numbers.index(char) - pow(keys.en_key, keys.en_key2) - (keys.en_key + keys.en_key2 + 2)*2) % 10]
+            result += shifted
         else:
             result += char
     return result[::-1]  # reversal of string to original direction
