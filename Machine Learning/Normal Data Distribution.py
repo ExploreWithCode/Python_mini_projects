@@ -8,6 +8,7 @@ std = int(input())
 print("Give me the value size: ")
 size = int(input())
 x = numpy.random.normal(mean, std, size)
+
 mn = min(x)
 mx = max(x)
 md = mode(x)  # most common (in case of a tie, the first value is printed)
