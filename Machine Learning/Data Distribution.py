@@ -10,7 +10,7 @@ size = int(input())
 x = numpy.random.uniform(low, high, size)
 
 md = mode(x)  # most common (in case of a tie, the first value is printed)
-print(f"Mode: {md}")
+print(f"Mode: {round(md, 2)}")
 
 if size < 10:
     plt.hist(x, size)
