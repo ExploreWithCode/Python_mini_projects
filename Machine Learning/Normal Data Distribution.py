@@ -15,7 +15,7 @@ md = mode(x)  # most common (in case of a tie, the first value is printed)
 mn_d = mean - min(x)  # deviation of the minimum value
 mx_d = max(x) - mean  # deviation of the maximum value
 mxd = max(mn_d, mx_d)  # maximum deviation from the average
-print(f"MIN: {mn} | MAX: {mx}\nMode: {md} | Maximum deviation: {mxd}")
+print(f"MIN: {round(mn, 2)} | MAX: {round(mx, 2)}\nMode: {round(md, 2)} | Maximum deviation: {round(mxd, 2)}")
 
 if size < 10:
     plt.hist(x, size)
