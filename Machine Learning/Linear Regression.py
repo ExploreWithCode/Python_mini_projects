@@ -7,8 +7,7 @@ print("Give me the minimum value: ")
 low = int(input())
 print("Give me the maximum value: ")
 high = int(input())
-print("Give me the value size: ")
-size = 10
+size = 20
 x = numpy.random.uniform(low, high, size)
 
 print("DATA SET 2")
