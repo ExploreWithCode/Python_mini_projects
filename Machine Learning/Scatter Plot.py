@@ -9,7 +9,7 @@ print("Give me the value size: ")
 size = int(input())
 x = numpy.random.normal(mean, std, size)
 
-print("DATA SET 2")
+print("\nDATA SET 2")
 print("Give me the average value: ")
 mean2 = int(input())
 print("Give me the standard deviation: ")
