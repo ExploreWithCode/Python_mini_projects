@@ -1,5 +1,5 @@
 import random
-l2 = ["to", "at", "me", "an", "it", "is", "in", "if", "on", "or", "of", "am", "be", "no", "my", "hi", "oh", "he", "ex"]
+l2 = ["to", "at", "me", "an", "it", "is", "in", "if", "on", "or", "of", "am", "be", "no", "my", "hi", "oh", "he", "ex", "do"]
 l3 = ["off", "man", "men", "for", "boy", "ant", "arm", "art", "bee", "say", "act", "not", "law", "old", "all", "key"]
 l4 = ["from", "four", "room", "boom", "zoom", "loot", "bard", "task", "coin", "sign", "mint", "that", "note", "want"]
 l5 = ["bloom", "words", "world", "scans", "basic", "merit", "force", "token", "banks", "after", "apply", "quote", "state"]
