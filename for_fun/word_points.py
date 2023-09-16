@@ -19,4 +19,3 @@ for word in txt.split():
       if word_value == max(values):
             words.append(word)
 print(f"\"{words[-1]}\" was the most valuable word with a value of {max(values)}.")
-
