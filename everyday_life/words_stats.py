@@ -12,4 +12,4 @@ for word in txt.split():
     length.append(l_w)
 
 print(f"\"{mode(txt.split())}\" was the most common word and was mentioned {number_of_occurrences} times.")
-print(f"The average word length was {numpy.mean(length)} characters.")
+print(f"The average word length was {int(numpy.mean(length))} characters.")
