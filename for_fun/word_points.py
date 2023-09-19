@@ -1,4 +1,4 @@
-from statistics import mode
+import numpy
 print("This is a tool that finds the word with the highest value within a given text. Here is how it works: \n"
       "1) A word gets points based on the letters it contains. \"a\"=1, \"b\"=2 etc.\n"
       "2) The numbers are added and show the value of the word.\n"
@@ -7,7 +7,8 @@ print("This is a tool that finds the word with the highest value within a given 
 txt = input("Give me some text:\n")
 txt = txt.lower()
 values = []
-words = []
+max_words = []
+min_words = []
 for word in txt.split():
       word_value = 0
       for char in word:
@@ -17,6 +18,9 @@ for word in txt.split():
                   word_value += char_value
       values.append(word_value)
       if word_value == max(values):
-            words.append(word)
-print(f"\"{words[-1]}\" was the most valuable word with a value of {max(values)}.")
-print(f"\"{words[0]}\" was the least valuable word with a value of {min(values)}.")
+            max_words.append(word)
+      elif word_value == min(values):
+            min_words.append(word)
+print(f"\"{max_words[-1]}\" was the most valuable word with a value of {max(values)}.")
+print(f"\"{min_words[-1]}\" was the least valuable word with a value of {min(values)}.")
+print(f"The average word value is {round(numpy.mean(values))}.")
