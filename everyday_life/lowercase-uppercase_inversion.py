@@ -11,4 +11,4 @@ def invert(phrase):
     return inversion
 
 
-print(invert(input("I will turn uppercase into lowercase and vise versa. Type something: ")))
+print(invert(input("I will turn uppercase into lowercase and vice versa. Type something: ")))
