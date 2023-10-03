@@ -1,4 +1,4 @@
-inp = input("Enter a letter (CAPITAL or small) and receive its order in the alphabet:\n")
+inp = input("Enter a letter (uppercase or lowercase) and receive its order in the alphabet:\n")
 alphabet = "abcdefghijklmnopqrstuvwxyz"
 
 
