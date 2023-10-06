@@ -1,15 +1,19 @@
 from statistics import mode
 import numpy
 values = []
-brk = "N"
+brk = ["N", "n"]
 asdf = ""
-while asdf is not brk:
+while asdf not in brk:
     print("Enter a number:")
-    vl = float(input())
-    values.append(vl)
-    conf = input("Press anything to continue or 'N' to stop adding numbers. ")
-    if conf == brk:
-        break
+    vlpre = input()
+    if vlpre.isnumeric():
+        vl = float(vlpre)
+        values.append(vl)
+        conf = input("Press anything to continue or 'N' to stop adding numbers. ")
+        if conf in brk:
+            break
+    else:
+        print("Invalid input!")
 print(f"Values: {values}")
 
 avg = round(numpy.mean(values), 2)  # mean = average
