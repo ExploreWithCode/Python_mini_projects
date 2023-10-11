@@ -184,8 +184,7 @@ def decrypt_rev(text):
 
 vls = []
 brk = ["N", "n"]
-asdf = ""
-while asdf is not brk:
+while True:
     res2 = input("Enter the text you want to decrypt: \n")
     print(f"Decryption attempts: {decrypt(res2)}")
     accepted_replies = ["yes", "y", "YES", "Y", "Yes"]
