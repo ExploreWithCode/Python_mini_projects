@@ -1,8 +1,7 @@
 vls = []
 brk = ["N", "n"]
-asdf = ""
 print("Which numbers do you want to print?")
-while asdf is not brk:
+while True:
     try:
         print("Give me the starting integer number: ")
         st = int(input())
