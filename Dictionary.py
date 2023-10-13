@@ -69,8 +69,7 @@ entities_init_dictionary = {
 }
 vls = []
 brk = ["N", "n"]
-asdf = ""
-while asdf is not brk:
+while True:
     print("Which of the following dictionaries would you like to access?")
     inp1 = input("A: Cryptocurrency | B: Tech | C: Finance | D: Entities | E: all of the above\n")
     if inp1 == "A" or inp1 == "a":
