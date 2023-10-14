@@ -1,4 +1,4 @@
-crypto_init_dictionary = {
+crypto_dictionary = {
     "CBDC": "Central Bank Digital Currency",
     "CEX": "Centralized Exchange",
     "DAO": "Decentralized Autonomous Organization",
@@ -16,7 +16,7 @@ crypto_init_dictionary = {
     "WAGMI": "We Are All Gonna Make It",
     "ZK": "Zero Knowledge",
 }
-tech_init_dictionary = {
+tech_dictionary = {
     "AI": "Artificial Intelligence",
     "AGI": "Artificial General Intelligence",
     "AR": "Augmented Reality",
@@ -33,7 +33,7 @@ tech_init_dictionary = {
     "VR": "Virtual Reality",
     "WWW": "World Wide Web",
 }
-fin_init_dictionary = {
+fin_dictionary = {
     "AML": "Anti-Money Laundering",
     "APR": "Annual Percentage Rate",
     "APY": "Annual Percentage Yield",
@@ -59,7 +59,7 @@ fin_init_dictionary = {
     "VP": "Vice Precident",
     "YTD": "Year-To-Date",
 }
-entities_init_dictionary = {
+entities_dictionary = {
     "BIS": "Bank for International Settlements",
     "CFTC": "Commodity Futures Trading Commission",
     "ECB": "European Central Bank",
@@ -73,32 +73,33 @@ while True:
     print("Which of the following dictionaries would you like to access?")
     inp1 = input("A: Cryptocurrency | B: Tech | C: Finance | D: Entities | E: all of the above\n")
     if inp1 == "A" or inp1 == "a":
-        for x in crypto_init_dictionary:
-            print(f"{x}: {crypto_init_dictionary[x]}")
+        for x in crypto_dictionary:
+            print(f"{x}: {crypto_dictionary[x]}")
     elif inp1 == "B" or inp1 == "b":
-        for x in tech_init_dictionary:
-            print(f"{x}: {tech_init_dictionary[x]}")
+        for x in tech_dictionary:
+            print(f"{x}: {tech_dictionary[x]}")
     elif inp1 == "C" or inp1 == "c":
-        for x in fin_init_dictionary:
-            print(f"{x}: {fin_init_dictionary[x]}")
+        for x in fin_dictionary:
+            print(f"{x}: {fin_dictionary[x]}")
     elif inp1 == "D" or inp1 == "d":
-        for x in entities_init_dictionary:
-            print(f"{x}: {entities_init_dictionary[x]}")
+        for x in entities_dictionary:
+            print(f"{x}: {entities_dictionary[x]}")
     elif inp1 == "E" or inp1 == "e":
         print("CRYPROCURRENCY:\n")
-        for x in crypto_init_dictionary:
-            print(f"{x}: {crypto_init_dictionary[x]}")
+        for x in crypto_dictionary:
+            print(f"{x}: {crypto_dictionary[x]}")
         print("\nTECHNOLOGY:\n")
-        for x in tech_init_dictionary:
-            print(f"{x}: {tech_init_dictionary[x]}")
+        for x in tech_dictionary:
+            print(f"{x}: {tech_dictionary[x]}")
         print("\nFINANCE:\n")
-        for x in fin_init_dictionary:
-            print(f"{x}: {fin_init_dictionary[x]}")
+        for x in fin_dictionary:
+            print(f"{x}: {fin_dictionary[x]}")
         print("\nENTITIES:\n")
-        for x in entities_init_dictionary:
-            print(f"{x}: {entities_init_dictionary[x]}")
+        for x in entities_dictionary:
+            print(f"{x}: {entities_dictionary[x]}")
     else:
         print("Not an accepted answer")
     conf = input("\nPress anything to continue or 'N' quit. ")
     if conf in brk:
         break
+    
