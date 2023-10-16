@@ -99,7 +99,6 @@ while True:
             print(f"{x}: {entities_dictionary[x]}")
     else:
         print("Not an accepted answer")
-    conf = input("\nPress anything to continue or 'N' quit. ")
+    conf = input("\nPress anything to continue or 'N' to quit. ")
     if conf in brk:
         break
-    
