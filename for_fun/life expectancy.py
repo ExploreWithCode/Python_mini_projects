@@ -1,6 +1,6 @@
-both = float(73.2)
-females = float(75.6)
+females = float(76.0)
 males = float(70.8)
+both = round((females+males)/2, 2)
 print("The average life expectancy of a human in general right now is", both, "years.")
 print("Enter your age: ")
 age = input()
