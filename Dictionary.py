@@ -32,6 +32,7 @@ tech_dictionary = {
     "VPN": "Virtual Private Network",
     "VR": "Virtual Reality",
     "WWW": "World Wide Web",
+    "LLM": "Large Language Model",
 }
 fin_dictionary = {
     "AML": "Anti-Money Laundering",
@@ -45,13 +46,14 @@ fin_dictionary = {
     "CPI": "Consumer Price Index",
     "ESG": "Environmental Social Governance",
     "ETF": "Exchange-Traded Fund",
-    "ETP": "Exchange Traded Products",
+    "ETP": "Exchange Traded Product",
     "FA": "Fundamental Analysis",
     "KYC": "Know Your Customer",
     "MLM": "Multi-Level Marketing",
     "MVP": "Minimum Viable Product",
     "OTC": "Over-The-Counter",
     "PPI": "Producer Price Index",
+    "ROI": "Return On Investment",
     "RSI": "Relative Strength Index",
     "SPAC": "Special Purpose Aqcuisition Company",
     "TA": "Technical Analysis",
