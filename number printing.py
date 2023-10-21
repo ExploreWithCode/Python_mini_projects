@@ -1,4 +1,3 @@
-vls = []
 brk = ["N", "n"]
 print("Which numbers do you want to print?")
 while True:
