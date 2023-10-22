@@ -84,8 +84,8 @@ def decrypt(text):
             result_24 += char
             result_25 += char
             result_26 += char
-    return result, result_2, result_3, result_4, result_5, result_6, result_7, result_8, result_9, result_10,\
-        result_11, result_12, result_13, result_14, result_15, result_16, result_17, result_18, result_19, result_20,\
+    return result, result_2, result_3, result_4, result_5, result_6, result_7, result_8, result_9, result_10, \
+        result_11, result_12, result_13, result_14, result_15, result_16, result_17, result_18, result_19, result_20, \
         result_21, result_22, result_23, result_24, result_25, result_26
 
 
@@ -175,14 +175,13 @@ def decrypt_rev(text):
             result_24 += char
             result_25 += char
             result_26 += char
-    return result[::-1], result_2[::-1], result_3[::-1], result_4[::-1], result_5[::-1], result_6[::-1],\
-        result_7[::-1], result_8[::-1], result_9[::-1], result_10[::-1], result_11[::-1], result_12[::-1],\
-        result_13[::-1], result_14[::-1], result_15[::-1], result_16[::-1], result_17[::-1], result_18[::-1],\
-        result_19[::-1], result_20[::-1], result_21[::-1], result_22[::-1], result_23[::-1], result_24[::-1],\
+    return result[::-1], result_2[::-1], result_3[::-1], result_4[::-1], result_5[::-1], result_6[::-1], \
+        result_7[::-1], result_8[::-1], result_9[::-1], result_10[::-1], result_11[::-1], result_12[::-1], \
+        result_13[::-1], result_14[::-1], result_15[::-1], result_16[::-1], result_17[::-1], result_18[::-1], \
+        result_19[::-1], result_20[::-1], result_21[::-1], result_22[::-1], result_23[::-1], result_24[::-1], \
         result_25[::-1], result_26[::-1]
 
 
-vls = []
 brk = ["N", "n"]
 while True:
     res2 = input("Enter the text you want to decrypt: \n")
