@@ -8,7 +8,7 @@ per_of_both = (int(age)/int(both)*100)
 per_of_females = (int(age)/int(females)*100)
 per_of_males = (int(age)/int(males)*100)
 if int(age) < 0:
-    print("Pick a valid number")
+    print("Pick a valid number!")
 else:
     print("You have lived this percentage of your expected life according to worldwide data for:")
     print("both sexes :", round(per_of_both, 2), "%")
