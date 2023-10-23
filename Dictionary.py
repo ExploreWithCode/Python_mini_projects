@@ -69,7 +69,6 @@ entities_dictionary = {
     "SEC": "Securities and Exchange Commission ",
     "WEF": "World Economic Forum",
 }
-vls = []
 brk = ["N", "n"]
 while True:
     print("Which of the following dictionaries would you like to access?")
