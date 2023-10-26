@@ -2,8 +2,7 @@ from statistics import mode
 import numpy
 values = []
 brk = ["N", "n"]
-asdf = ""
-while asdf not in brk:
+while True:
     print("Enter a number:")
     vlpre = input()
     if vlpre.isnumeric():
