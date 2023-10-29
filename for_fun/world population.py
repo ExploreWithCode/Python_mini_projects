@@ -25,7 +25,7 @@ font2 = {'family': 'serif', 'color': 'darkslateblue', 'size': 15}
 # naming the x-axis
 plt.xlabel('Years', fontdict=font2)
 # naming the y-axis
-plt.ylabel('Billions', fontdict=font2)
+plt.ylabel('Population in billions', fontdict=font2)
 # plot title
 plt.title('World Population', fontdict=font1)
 # function to show the plot
