@@ -1,6 +1,5 @@
 def cnt(text):
-    lowercase = 0
-    uppercase = 0
+    lowercase = uppercase = 0
     for char in text:
         if char.isalpha():
             if char.islower():
