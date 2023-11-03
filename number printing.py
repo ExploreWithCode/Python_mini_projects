@@ -1,33 +1,27 @@
-brk = ["N", "n"]
+brk = ["Q", "q"]
 print("Which numbers do you want to print?")
 while True:
     try:
-        print("Give me the starting integer number: ")
-        st = input()
+        st = input("Give me the starting integer number: ")
         while not st.isnumeric():
-            print("Give me an integer!")
-            st = input()
+            st = input("Give me an integer: ")
         st = int(st)
-        print("Give me the ending integer number: ")
-        en = input()
+        en = input("Give me the ending integer number: ")
         while not en.isnumeric():
-            print("Give me an integer!")
-            en = input()
+            en = input("Give me an integer: ")
         en = int(en)
         while st > en:
-            print("The ending number cannot be smaller than the starting number.")
-            print(f"Give me an integer smaller than of equal to {st}: ")
-            en = input()
+            print("The ending number cannot be smaller than the starting number!")
+            en = input(f"Give me an integer smaller than or equal to {st}: ")
             while not en.isnumeric():
-                print("Give me an integer!")
-                en = input()
+                en = input("Give me an integer: ")
             en = int(en)
         en = int(en)
-        print("Here is the result:")
+        print("\nHere is the result:")
         while st <= en:
             print(st, end=" ")
             st += 1
-        conf = input("\nPress anything to continue or 'N' to quit. ")
+        conf = input("\nPress either 'Q' or 'q' to quit or anything else to continue. ")
         if conf in brk:
             break
     except ValueError:
