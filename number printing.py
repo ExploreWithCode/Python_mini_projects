@@ -31,4 +31,4 @@ while True:
         if conf in brk:
             break
     except ValueError:
-        print("Invalid input")
+        print("Invalid input!")
