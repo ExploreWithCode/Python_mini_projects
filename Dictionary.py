@@ -69,7 +69,7 @@ entities_dictionary = {
     "SEC": "Securities and Exchange Commission ",
     "WEF": "World Economic Forum",
 }
-brk = ["N", "n"]
+brk = ["Q", "q"]
 while True:
     print("Which of the following dictionaries would you like to access?")
     inp1 = input("A: Cryptocurrency | B: Tech | C: Finance | D: Entities | E: all of the above\n")
@@ -100,6 +100,6 @@ while True:
             print(f"{x}: {entities_dictionary[x]}")
     else:
         print("Not an accepted answer")
-    conf = input("\nPress anything to continue or 'N' to quit. ")
+    conf = input("\nPress either 'Q' or 'q' to quit or anything else to continue. ")
     if conf in brk:
         break
