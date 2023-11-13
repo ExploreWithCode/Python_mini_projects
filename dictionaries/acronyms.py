@@ -53,6 +53,7 @@ fin_dictionary = {
     "MVP": "Minimum Viable Product",
     "OTC": "Over-The-Counter",
     "PPI": "Producer Price Index",
+    "REIT": "Real Estate Investment Trust",
     "ROI": "Return On Investment",
     "RSI": "Relative Strength Index",
     "SPAC": "Special Purpose Aqcuisition Company",
