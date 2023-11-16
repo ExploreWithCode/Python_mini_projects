@@ -7,6 +7,10 @@ A2codes = {'AF': ['Afghanistan', 'AFG', '.af'],
            'DZ': ['Algeria', 'DZA', '.dz'],
            'AS': ['American Samoa', 'ASM', '.as'],
            'AD': ['Andorra', 'AND', '.ad'],
+           'AO': ['Angola', 'AGO', '.ao'],
+           'AI': ['Anguilla', 'AIA', '.ai'],
+           'AQ': ['Antarctica', 'ATA', '.ai'],
+           'AG': ['Antigua and Barbuda', 'ATG', '.ag'],
            }
 
 if inp in A2codes:
