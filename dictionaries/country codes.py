@@ -9,8 +9,12 @@ A2codes = {'AF': ['Afghanistan', 'AFG', '.af'],
            'AD': ['Andorra', 'AND', '.ad'],
            'AO': ['Angola', 'AGO', '.ao'],
            'AI': ['Anguilla', 'AIA', '.ai'],
-           'AQ': ['Antarctica', 'ATA', '.ai'],
+           'AQ': ['Antarctica', 'ATA', '.aq'],
            'AG': ['Antigua and Barbuda', 'ATG', '.ag'],
+           'AR': ['Argentina', 'ARG', '.ar'],
+           'AM': ['Armenia', 'ARM', '.am'],
+           'AW': ['Aruba', 'ABW', '.aw'],
+           'AZ': ['Azerbaijan', 'AZE', '.az'],
            }
 
 if inp in A2codes:
@@ -22,6 +26,14 @@ A3codes = {'AFG': ['Afghanistan', 'AF', '.af'],
            'DZA': ['Algeria', 'DZ', '.dz'],
            'ASM': ['American Samoa', 'AS', '.as'],
            'AND': ['Andorra', 'AD', '.ad'],
+           'AGO': ['Angola', 'AO', '.ao'],
+           'AIA': ['Anguilla', 'AI', '.ai'],
+           'ATA': ['Antarctica', 'AQ', '.aq'],
+           'ATG': ['Antigua and Barbuda', 'AG', '.ag'],
+           'ARG': ['Argentina', 'AR', '.ar'],
+           'ARM': ['Armenia', 'AM', '.am'],
+           'ABW': ['Aruba', 'AW', '.aw'],
+           'AZE': ['Azerbaijan', 'AZ', '.az'],
            }
 
 if inp in A3codes:
