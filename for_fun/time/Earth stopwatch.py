@@ -3,7 +3,7 @@ from IPython.display import clear_output
 print("The solar time model is used for this stopwatch. \n More info here: https://lco.global/spacebook/sky/sidereal-time/ "
       "| https://en.wikipedia.org/wiki/Solar_time |\n https://en.wikipedia.org/wiki/Synodic_day")
 day = 0
-while day <= 366:
+while day <= 365:
     hour = 0
     while hour < 24:
         mins = 0
