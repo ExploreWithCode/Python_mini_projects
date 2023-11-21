@@ -15,6 +15,7 @@ A2codes = {'AF': ['Afghanistan', 'AFG', '.af'],
            'AM': ['Armenia', 'ARM', '.am'],
            'AW': ['Aruba', 'ABW', '.aw'],
            'AZ': ['Azerbaijan', 'AZE', '.az'],
+           'BS': ['Bahamas', 'BHS', '.bs'],
            }
 
 if inp in A2codes:
@@ -34,6 +35,7 @@ A3codes = {'AFG': ['Afghanistan', 'AF', '.af'],
            'ARM': ['Armenia', 'AM', '.am'],
            'ABW': ['Aruba', 'AW', '.aw'],
            'AZE': ['Azerbaijan', 'AZ', '.az'],
+           'BHS': ['Bahamas', 'BS', '.bs'],
            }
 
 if inp in A3codes:
