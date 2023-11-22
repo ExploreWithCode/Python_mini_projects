@@ -16,6 +16,11 @@ A2codes = {'AF': ['Afghanistan', 'AFG', '.af'],
            'AW': ['Aruba', 'ABW', '.aw'],
            'AZ': ['Azerbaijan', 'AZE', '.az'],
            'BS': ['Bahamas', 'BHS', '.bs'],
+           'BH': ['Bahrain', 'BHR', '.bh'],
+           'BD': ['Bangladesh', 'BGD', '.bd'],
+           'BB': ['Barbados', 'BRB', '.bb'],
+           'BY': ['Belarus', 'BLR', '.by'],
+           'BE': ['Belgium', 'BEL', '.be'],
            }
 
 if inp in A2codes:
@@ -36,6 +41,11 @@ A3codes = {'AFG': ['Afghanistan', 'AF', '.af'],
            'ABW': ['Aruba', 'AW', '.aw'],
            'AZE': ['Azerbaijan', 'AZ', '.az'],
            'BHS': ['Bahamas', 'BS', '.bs'],
+           'BHR': ['Bahrain', 'BH', '.bh'],
+           'BGD': ['Bangladesh', 'BD', '.bd'],
+           'BRB': ['Barbados', 'BB', '.bb'],
+           'BLR': ['Belarus', 'BY', '.by'],
+           'BEL': ['Belgium', 'BE', '.be'],
            }
 
 if inp in A3codes:
