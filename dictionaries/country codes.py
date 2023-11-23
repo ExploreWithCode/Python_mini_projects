@@ -21,10 +21,17 @@ A2codes = {'AF': ['Afghanistan', 'AFG', '.af'],
            'BB': ['Barbados', 'BRB', '.bb'],
            'BY': ['Belarus', 'BLR', '.by'],
            'BE': ['Belgium', 'BEL', '.be'],
+           'BZ': ['Belize', 'BLZ', '.bz'],
+           'BJ': ['Benin', 'BEN', '.bj'],
+           'BM': ['Bermuda', 'BMU', '.bm'],
+           'BT': ['Bhutan', 'BTN', '.bt'],
+           'BO': ['Bolivia', 'BOL', '.bo'],
+           'BQ': ['Bonaire, Sint Eustatius and Saba', 'BES', '.bq (and .nl)'],
+           'BA': ['Bosnia and Herzegovina', 'BIH', '.ba'],
            }
 
 if inp in A2codes:
-    print(f"Name: {A2codes[inp][0]}, 3-letter code: {A2codes[inp][1]}, top-level domain: {A2codes[inp][2]}")
+    print(f"Name: {A2codes[inp][0]} | 3-letter code: {A2codes[inp][1]} | top-level domain: {A2codes[inp][2]}")
 
 A3codes = {'AFG': ['Afghanistan', 'AF', '.af'],
            'ALA': ['Åland', 'AX', '.ax'],
@@ -46,6 +53,13 @@ A3codes = {'AFG': ['Afghanistan', 'AF', '.af'],
            'BRB': ['Barbados', 'BB', '.bb'],
            'BLR': ['Belarus', 'BY', '.by'],
            'BEL': ['Belgium', 'BE', '.be'],
+           'BLZ': ['Belize', 'BZ', '.bz'],
+           'BEN': ['Benin', 'BJ', '.bj'],
+           'BMU': ['Bermuda', 'BM', '.bm'],
+           'BTN': ['Bhutan', 'BT', '.bt'],
+           'BOL': ['Bolivia', 'BO', '.bo'],
+           'BES': ['Bonaire, Sint Eustatius and Saba', 'BQ', '.bq (and .nl)'],
+           'BIH': ['Bosnia and Herzegovina', 'BA', '.ba'],
            }
 
 if inp in A3codes:
