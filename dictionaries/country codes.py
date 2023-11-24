@@ -28,6 +28,11 @@ A2codes = {'AF': ['Afghanistan', 'AFG', '.af'],
            'BO': ['Bolivia', 'BOL', '.bo'],
            'BQ': ['Bonaire, Sint Eustatius and Saba', 'BES', '.bq (and .nl)'],
            'BA': ['Bosnia and Herzegovina', 'BIH', '.ba'],
+           'BW': ['Botswana', 'BWA', '.bw'],
+           'BV': ['Bouvet Island', 'BVT', '.bv(not in use), .no'],
+           'BR': ['Brazil', 'BRA', '.br'],
+           'IO': ['British Indian Ocean Territory', 'IOT', '.io'],
+           'BN': ['Brunei Darussalam', 'BRN', '.bn'],
            }
 
 if inp in A2codes:
@@ -60,6 +65,11 @@ A3codes = {'AFG': ['Afghanistan', 'AF', '.af'],
            'BOL': ['Bolivia', 'BO', '.bo'],
            'BES': ['Bonaire, Sint Eustatius and Saba', 'BQ', '.bq (and .nl)'],
            'BIH': ['Bosnia and Herzegovina', 'BA', '.ba'],
+           'BWA': ['Botswana', 'BW', '.bw'],
+           'BVT': ['Bouvet Island', 'BV', '.bv(not in use), .no'],
+           'BRA': ['Brazil', 'BR', '.br'],
+           'IOT': ['British Indian Ocean Territory', 'IO', '.io'],
+           'BRN': ['Brunei Darussalam', 'BN', '.bn'],
            }
 
 if inp in A3codes:
