@@ -39,6 +39,12 @@ A2codes = {'AF': ['Afghanistan', 'AFG', '.af'],
            'CV': ['Cabo Verde', 'CPV', '.cv'],
            'KH': ['Cambodia', 'KHM', '.kh'],
            'CM': ['Cameroon', 'CMR', '.cm'],
+           'CA': ['Canada', 'CAN', '.ca'],
+           'KY': ['Cayman Islands', 'CYM', '.ky'],
+           'CF': ['Central African Republic', 'CAF', '.cf'],
+           'TD': ['Chad', 'TCD', '.td'],
+           'CL': ['Chile', 'CHL', '.cl'],
+           'CN': ['China', 'CHN', '.cn'],
            }
 
 if inp in A2codes:
@@ -82,6 +88,12 @@ A3codes = {'AFG': ['Afghanistan', 'AF', '.af'],
            'CPV': ['Cabo Verde', 'CV', '.cv'],
            'KHM': ['Cambodia', 'KH', '.kh'],
            'CMR': ['Cameroon', 'CM', '.cm'],
+           'CAN': ['Canada', 'CAN', '.ca'],
+           'CYM': ['Cayman Islands', 'KY', '.ky'],
+           'CAF': ['Central African Republic', 'CF', '.cf'],
+           'TCD': ['Chad', 'TD', '.td'],
+           'CHL': ['Chile', 'CL', '.cl'],
+           'CHN': ['China', 'CN', '.cn'],
            }
 
 if inp in A3codes:
