@@ -33,6 +33,12 @@ A2codes = {'AF': ['Afghanistan', 'AFG', '.af'],
            'BR': ['Brazil', 'BRA', '.br'],
            'IO': ['British Indian Ocean Territory', 'IOT', '.io'],
            'BN': ['Brunei Darussalam', 'BRN', '.bn'],
+           'BG': ['Bulgaria', 'BGR', '.bg'],
+           'BF': ['Burkina Faso', 'BFA', '.bf'],
+           'BI': ['Burundi', 'BDI', '.bi'],
+           'CV': ['Cabo Verde', 'CPV', '.cv'],
+           'KH': ['Cambodia', 'KHM', '.kh'],
+           'CM': ['Cameroon', 'CMR', '.cm'],
            }
 
 if inp in A2codes:
@@ -70,6 +76,12 @@ A3codes = {'AFG': ['Afghanistan', 'AF', '.af'],
            'BRA': ['Brazil', 'BR', '.br'],
            'IOT': ['British Indian Ocean Territory', 'IO', '.io'],
            'BRN': ['Brunei Darussalam', 'BN', '.bn'],
+           'BGR': ['Bulgaria', 'BG', '.bg'],
+           'BFA': ['Burkina Faso', 'BF', '.bf'],
+           'BDI': ['Burundi', 'BI', '.bi'],
+           'CPV': ['Cabo Verde', 'CV', '.cv'],
+           'KHM': ['Cambodia', 'KH', '.kh'],
+           'CMR': ['Cameroon', 'CM', '.cm'],
            }
 
 if inp in A3codes:
