@@ -45,6 +45,19 @@ A2codes = {'AF': ['Afghanistan', 'AFG', '.af'],
            'TD': ['Chad', 'TCD', '.td'],
            'CL': ['Chile', 'CHL', '.cl'],
            'CN': ['China', 'CHN', '.cn'],
+           'CX': ['Christmas Island', 'CX', '.cx'],
+           'CC': ['Cocos (Keeling) Islands', 'CC', '.cc'],
+           'CO': ['Colombia', 'CO', '.co'],
+           'KM': ['Comoros', 'KM', '.km'],
+           'CD': ['Congo', 'COD', '.cd'],
+           'CK': ['Cook Islands', 'COK', '.ck'],
+           'CR': ['Costa Rica', 'CRI', '.cr'],
+           'CI': ["Côte d'Ivoire", 'CIV', '.ci'],
+           'HR': ["Croatia", 'HRV', '.hr'],
+           'CU': ["Cuba", 'CUB', '.cu'],
+           'CW': ["Curaçao", 'CUW', '.cw'],
+           'CY': ["Cyprus", 'CYP', '.cy'],
+           'CZ': ["Czechia", 'CZE', '.cz'],
            }
 
 if inp in A2codes:
@@ -94,7 +107,20 @@ A3codes = {'AFG': ['Afghanistan', 'AF', '.af'],
            'TCD': ['Chad', 'TD', '.td'],
            'CHL': ['Chile', 'CL', '.cl'],
            'CHN': ['China', 'CN', '.cn'],
+           'CXR': ['Christmas Island', 'CX', '.cx'],
+           'CCK': ['Cocos (Keeling) Islands', 'CC', '.cc'],
+           'COL': ['Colombia', 'CO', '.co'],
+           'COM': ['Comoros', 'KM', '.km'],
+           'COD': ['Congo', 'CD', '.cd'],
+           'COK': ['Cook Islands', 'CK', '.ck'],
+           'CRI': ['Costa Rica', 'CR', '.cr'],
+           'CIV': ["Côte d'Ivoire", 'CI', '.ci'],
+           'HRV': ["Croatia", 'HR', '.hr'],
+           'CUB': ["Cuba", 'CU', '.cu'],
+           'CUW': ["Curaçao", 'CW', '.cw'],
+           'CYP': ["Cyprus", 'CY', '.cy'],
+           'CZE': ["Czechia", 'CZ', '.cz'],
            }
 
 if inp in A3codes:
-    print(f"Name: {A3codes[inp][0]}, 2-letter code: {A3codes[inp][1]}, top-level domain: {A3codes[inp][2]}")
+    print(f"Name: {A3codes[inp][0]} | 2-letter code: {A3codes[inp][1]} | top-level domain: {A3codes[inp][2]}")
