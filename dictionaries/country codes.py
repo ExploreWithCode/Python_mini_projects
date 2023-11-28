@@ -58,6 +58,13 @@ A2codes = {'AF': ['Afghanistan', 'AFG', '.af'],
            'CW': ["Curaçao", 'CUW', '.cw'],
            'CY': ["Cyprus", 'CYP', '.cy'],
            'CZ': ["Czechia", 'CZE', '.cz'],
+           'DK': ["Denmark", 'DNK', '.dk'],
+           'DJ': ["Djibouti", 'DJI', '.dj'],
+           'DM': ["Dominica", 'DMA', '.dm'],
+           'DO': ["Dominican Republic", 'DOM', '.do'],
+           'EC': ["Ecuador", 'ECU', '.ec'],
+           'EG': ["Egypt", 'EGY', '.eg'],
+           'SV': ["El Salvador", 'SLV', '.sv'],
            }
 
 if inp in A2codes:
@@ -120,6 +127,13 @@ A3codes = {'AFG': ['Afghanistan', 'AF', '.af'],
            'CUW': ["Curaçao", 'CW', '.cw'],
            'CYP': ["Cyprus", 'CY', '.cy'],
            'CZE': ["Czechia", 'CZ', '.cz'],
+           'DNK': ["Denmark", 'DK', '.dk'],
+           'DJI': ["Djibouti", 'DJ', '.dj'],
+           'DMA': ["Dominica", 'DM', '.dm'],
+           'DOM': ["Dominican Republic", 'DO', '.do'],
+           'ECU': ["Ecuador", 'EC', '.eu'],
+           'EGY': ["Egypt", 'EG', '.eg'],
+           'SLV': ["El Salvador", 'SV', '.sv'],
            }
 
 if inp in A3codes:
