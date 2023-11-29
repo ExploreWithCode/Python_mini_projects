@@ -65,6 +65,11 @@ A2codes = {'AF': ['Afghanistan', 'AFG', '.af'],
            'EC': ["Ecuador", 'ECU', '.ec'],
            'EG': ["Egypt", 'EGY', '.eg'],
            'SV': ["El Salvador", 'SLV', '.sv'],
+           'GQ': ["Equatorial Guinea", 'GNQ', '.gq'],
+           'ER': ["Eritrea", 'ERI', '.er'],
+           'EE': ["Estonia", 'EST', '.ee'],
+           'SZ': ["Eswatini", 'SWZ', '.sz'],
+           'ET': ["Ethiopia", 'ETH', '.et'],
            }
 
 if inp in A2codes:
@@ -134,6 +139,11 @@ A3codes = {'AFG': ['Afghanistan', 'AF', '.af'],
            'ECU': ["Ecuador", 'EC', '.eu'],
            'EGY': ["Egypt", 'EG', '.eg'],
            'SLV': ["El Salvador", 'SV', '.sv'],
+           'GNQ': ["Equatorial Guinea", 'GQ', '.gq'],
+           'ERI': ["Eritrea", 'ER', '.er'],
+           'EST': ["Estonia", 'EE', '.ee'],
+           'SWZ': ["Eswatini", 'SZ', '.sz'],
+           'ETH': ["Ethiopia", 'ET', '.et'],
            }
 
 if inp in A3codes:
