@@ -70,6 +70,10 @@ A2codes = {'AF': ['Afghanistan', 'AFG', '.af'],
            'EE': ["Estonia", 'EST', '.ee'],
            'SZ': ["Eswatini", 'SWZ', '.sz'],
            'ET': ["Ethiopia", 'ETH', '.et'],
+           'FK': ["Falkland Islands", 'FLK', '.fk'],
+           'FO': ["Faroe Islands", 'FRO', '.fo'],
+           'FJ': ["Fiji", 'FJI', '.fj'],
+           'FI': ["Finland", 'FIN', '.fi'],
            }
 
 if inp in A2codes:
@@ -144,6 +148,10 @@ A3codes = {'AFG': ['Afghanistan', 'AF', '.af'],
            'EST': ["Estonia", 'EE', '.ee'],
            'SWZ': ["Eswatini", 'SZ', '.sz'],
            'ETH': ["Ethiopia", 'ET', '.et'],
+           'FLK': ["Falkland Islands", 'FK', '.fk'],
+           'FRO': ["Faroe Islands", 'FO', '.fo'],
+           'FJI': ["Fiji", 'FJ', '.fj'],
+           'FIN': ["Finland", 'FI', '.fi'],
            }
 
 if inp in A3codes:
