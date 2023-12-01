@@ -74,6 +74,12 @@ A2codes = {'AF': ['Afghanistan', 'AFG', '.af'],
            'FO': ["Faroe Islands", 'FRO', '.fo'],
            'FJ': ["Fiji", 'FJI', '.fj'],
            'FI': ["Finland", 'FIN', '.fi'],
+           'FR': ["France", 'FRA', '.fr'],
+           'GF': ["French Guiana", 'GUF', '.gf'],
+           'PF': ["French Polynesia", 'PYF', '.pf'],
+           'TF': ["French Southern Territories", 'ATF', '.tf'],
+           'GA': ["Gabon", 'GAB', '.ga'],
+           'GM': ["Gambia", 'GMB', '.gm'],
            }
 
 if inp in A2codes:
@@ -152,6 +158,12 @@ A3codes = {'AFG': ['Afghanistan', 'AF', '.af'],
            'FRO': ["Faroe Islands", 'FO', '.fo'],
            'FJI': ["Fiji", 'FJ', '.fj'],
            'FIN': ["Finland", 'FI', '.fi'],
+           'FRA': ["France", 'FR', '.fr'],
+           'GUF': ["French Guiana", 'GF', '.gf'],
+           'PYF': ["French Polynesia", 'PF', '.pf'],
+           'ATF': ["French Southern Territories", 'TF', '.tf'],
+           'GAB': ["Gabon", 'GA', '.ga'],
+           'GMB': ["Gambia", 'GM', '.gm'],
            }
 
 if inp in A3codes:
