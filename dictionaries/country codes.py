@@ -80,6 +80,16 @@ A2codes = {'AF': ['Afghanistan', 'AFG', '.af'],
            'TF': ["French Southern Territories", 'ATF', '.tf'],
            'GA': ["Gabon", 'GAB', '.ga'],
            'GM': ["Gambia", 'GMB', '.gm'],
+           'GE': ["Georgia", 'GEO', '.ge'],
+           'DE': ["Germany", 'DEU', '.de'],
+           'GH': ["Ghana", 'GHA', '.gh'],
+           'GI': ["Gibraltar", 'GIB', '.gi'],
+           'GR': ["Greece", 'GRC', '.gr'],
+           'GL': ["Greenland", 'GRL', '.gl'],
+           'GD': ["Grenada", 'GRD', '.gd'],
+           'GP': ["Guadeloupe", 'GLP', '.gp'],
+           'GU': ["Guam", 'GUM', '.gu'],
+           'GT': ["Guatemala", 'GTM', '.gt'],
            }
 
 if inp in A2codes:
@@ -164,6 +174,16 @@ A3codes = {'AFG': ['Afghanistan', 'AF', '.af'],
            'ATF': ["French Southern Territories", 'TF', '.tf'],
            'GAB': ["Gabon", 'GA', '.ga'],
            'GMB': ["Gambia", 'GM', '.gm'],
+           'GEO': ["Georgia", 'GE', '.ge'],
+           'DEU': ["Germany", 'DE', '.de'],
+           'GHA': ["Ghana", 'GH', '.gh'],
+           'GIB': ["Gibraltar", 'GI', '.gi'],
+           'GRC': ["Greece", 'GR', '.gr'],
+           'GRL': ["Greenland", 'GL', '.gl'],
+           'GRD': ["Grenada", 'GD', '.gd'],
+           'GLP': ["Guadeloupe", 'GP', '.gp'],
+           'GUM': ["Guam", 'GU', '.gu'],
+           'GTM': ["Guatemala", 'GT', '.gt'],
            }
 
 if inp in A3codes:
