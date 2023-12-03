@@ -90,6 +90,16 @@ A2codes = {'AF': ['Afghanistan', 'AFG', '.af'],
            'GP': ["Guadeloupe", 'GLP', '.gp'],
            'GU': ["Guam", 'GUM', '.gu'],
            'GT': ["Guatemala", 'GTM', '.gt'],
+           'GG': ["Guernsey", 'GGY', '.gg'],
+           'GN': ["Guinea", 'GIN', '.gn'],
+           'GW': ["Guinea-Bissau", 'GNB', '.gw'],
+           'GY': ["Guyana", 'GUY', '.gy'],
+           'HT': ["Haiti", 'HTI', '.ht'],
+           'HM': ["Heard Island and McDonald Islands", 'HMD', '.hm'],
+           'VA': ["Holy See", 'VAT', '.va'],
+           'HN': ["Honduras", 'HND', '.hn'],
+           'HK': ["Hong Kong", 'HKG', '.hk'],
+           'HU': ["Hungary", 'HUN', '.hu'],
            }
 
 if inp in A2codes:
@@ -184,6 +194,16 @@ A3codes = {'AFG': ['Afghanistan', 'AF', '.af'],
            'GLP': ["Guadeloupe", 'GP', '.gp'],
            'GUM': ["Guam", 'GU', '.gu'],
            'GTM': ["Guatemala", 'GT', '.gt'],
+           'GGY': ["Guernsey", 'GG', '.gg'],
+           'GIN': ["Guinea", 'GN', '.gn'],
+           'GNB': ["Guinea-Bissau", 'GW', '.gw'],
+           'GUY': ["Guyana", 'GY', '.gy'],
+           'HTI': ["Haiti", 'HT', '.ht'],
+           'HMD': ["Heard Island and McDonald Islands", 'HM', '.hm'],
+           'VAT': ["Holy See", 'VA', '.va'],
+           'HND': ["Honduras", 'HN', '.hn'],
+           'HKG': ["Hong Kong", 'HK', '.hk'],
+           'HUN': ["Hungary", 'HU', '.hu'],
            }
 
 if inp in A3codes:
