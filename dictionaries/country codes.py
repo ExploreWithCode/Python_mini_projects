@@ -116,6 +116,8 @@ A2codes = {'AF': ['Afghanistan', 'AFG', '.af'],
            'KZ': ["Kazakhstan", 'KAZ', '.kz'],
            'KE': ["Kenya", 'KEN', '.ke'],
            'KI': ["Kiribati", 'KIR', '.ki'],
+           'KP': ["North Korea", 'PRK', '.kp'],
+           'KR': ["South Korea", 'KOR', '.kr'],
            }
 
 if inp in A2codes:
@@ -236,6 +238,8 @@ A3codes = {'AFG': ['Afghanistan', 'AF', '.af'],
            'KAZ': ["Kazakhstan", 'KZ', '.kz'],
            'KEN': ["Kenya", 'KE', '.ke'],
            'KIR': ["Kiribati", 'KI', '.ki'],
+           'PRK': ["North Korea", 'KP', '.kp'],
+           'KOR': ["South Korea", 'KR', '.kr'],
            }
 
 if inp in A3codes:
