@@ -53,17 +53,17 @@ pokemon = {
 }
 pokeys = list(pokemon.keys())
 trick = 0
-if inp in pokemon:
-    print(f"Name: {pokemon[inp][0]} | Pokedex number: {inp} | Type: {pokemon[inp][1]}")
-    trick = 1
-else:
-    for index, i in enumerate(pokemon):
-        if inp in pokemon[i][0]:
-            print(f"Name: {pokemon[i][0]} | Pokedex number: {pokeys[index]} | Type: {pokemon[i][1]}")
-            trick = 1
-            break
+for index, i in enumerate(pokemon):
+    if inp == pokemon[i][0]:
+        print(f"Name: {pokemon[i][0]} | Pokedex number: {pokeys[index]} | Type: {pokemon[i][1]}")
+        trick = 1
+        break
+    elif inp == str(i):
+        print(f"Name: {pokemon[i][0]} | Pokedex number: {pokeys[index]} | Type: {pokemon[i][1]}")
+        trick = 1
+        break
 
 if trick == 0:
     print("Your input has no match in the database!\n"
           "Make sure you insert no spaces or other unnecessary characters.\n"
-          "Also type an existing name, symbol or atomic number.")
+          "Also type an existing name or Pokedex number.")
