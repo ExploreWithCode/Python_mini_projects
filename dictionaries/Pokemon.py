@@ -152,18 +152,164 @@ pokemon = {
     149: ["Dragonite", "Dragon"],
     150: ["Mewtwo", "Psychic"],
     151: ["Mew", "Psychic"],    # Gen 1 ends here
+    152: ["Chikorita", "Grass"],
+    153: ["Bayleef", "Grass"],
+    154: ["Meganium", "Grass"],
+    155: ["Cyndaquil", "Fire"],
+    156: ["Quilava", "Fire"],
+    157: ["Typhlosion", "Fire"],
+    158: ["Totodile", "Water"],
+    159: ["Croconaw", "Water"],
+    160: ["Feraligatr", "Water"],
+    161: ["Sentret", "Normal"],
+    162: ["Furret", "Normal"],
+    163: ["Hoothoot", "Normal/Flying"],
+    164: ["Noctowl", "Normal/Flying"],
+    165: ["Ledyba", "Bug/Flying"],
+    166: ["Ledian", "Bug/Flying"],
+    167: ["Spinarak", "Bug/Poison"],
+    168: ["Ariados", "Bug/Poison"],
+    169: ["Crobat", "Poison/Flying"],
+    170: ["Chinchou", "Water/Electric"],
+    171: ["Lanturn", "Water/Electric"],
+    172: ["Pichu", "Electric"],
+    173: ["Cleffa", "Fairy"],
+    174: ["Igglybuff", "Normal/Fairy"],
+    175: ["Togepi", "Fairy"],
+    176: ["Togetic", "Fairy/Flying"],
+    177: ["Natu", "Psychic/Flying"],
+    178: ["Xatu", "Psychic/Flying"],
+    179: ["Mareep", "Electric"],
+    180: ["Flaaffy", "Electric"],
+    181: ["Ampharos", "Electric"],
+    182: ["Bellossom", "Grass"],
+    183: ["Marill", "Water/Fairy"],
+    184: ["Azumarill", "Water/Fairy"],
+    185: ["Sudowoodo", "Rock"],
+    186: ["Politoed", "Water"],
+    187: ["Hoppip", "Grass/Flying"],
+    188: ["Skiploom", "Grass/Flying"],
+    189: ["Jumpluff", "Grass/Flying"],
+    190: ["Aipom", "Normal"],
+    191: ["Sunkern", "Grass"],
+    192: ["Sunflora", "Grass"],
+    193: ["Yanma", "Bug/Flying"],
+    194: ["Wooper", "Water/Ground"],
+    195: ["Quagsire", "Water/Ground"],
+    196: ["Espeon", "Psychic"],
+    197: ["Umbreon", "Dark"],
+    198: ["Murkrow", "Dark/Flying"],
+    199: ["Slowking", "Water/Psychic"],
+    200: ["Misdreavus", "Ghost"],
+    201: ["Unown", "Psychic"],
+    202: ["Wobbuffet", "Psychic"],
+    203: ["Girafarig", "Normal/Psychic"],
+    204: ["Pineco", "Bug"],
+    205: ["Forretress", "Bug/Steel"],
+    206: ["Dunsparce", "Normal"],
+    207: ["Gligar", "Ground/Flying"],
+    208: ["Steelix", "Steel/Ground"],
+    209: ["Snubbull", "Fairy"],
+    210: ["Granbull", "Fairy"],
+    211: ["Qwilfish", "Water/Poison"],
+    212: ["Scizor", "Bug/Steel"],
+    213: ["Shuckle", "Bug/Rock"],
+    214: ["Heracross", "Bug/Fighting"],
+    215: ["Sneasel", "Dark/Ice"],
+    216: ["Teddiursa", "Normal"],
+    217: ["Ursaring", "Normal"],
+    218: ["Slugma", "Fire"],
+    219: ["Magcargo", "Fire/Rock"],
+    220: ["Swinub", "Ice/Ground"],
+    221: ["Piloswine", "Ice/Ground"],
+    222: ["Corsola", "Water/Rock"],
+    223: ["Remoraid", "Water"],
+    224: ["Octillery", "Water"],
+    225: ["Delibird", "Ice/Flying"],
+    226: ["Mantine", "Water/Flying"],
+    227: ["Skarmory", "Steel/Flying"],
+    228: ["Houndour", "Dark/Fire"],
+    229: ["Houndoom", "Dark/Fire"],
+    230: ["Kingdra", "Water/Dragon"],
+    231: ["Phanpy", "Ground"],
+    232: ["Donphan", "Ground"],
+    233: ["Porygon2", "Electric"],
+    234: ["Stantler", "Ground"],
+    235: ["Smeargle", "Normal"],
+    236: ["Tyrogue", "Fighting"],
+    237: ["Hitmontop", "Fighting"],
+    238: ["Smoochum", "Ice/Psychic"],
+    239: ["Elekid", "Electric"],
+    240: ["Magby", "Fire"],
+    241: ["Miltank", "Normal"],
+    242: ["Blissey", "Normal"],
+    243: ["Raikou", "Electric"],
+    244: ["Entei", "Fire"],
+    245: ["Suicune", "Water"],
+    246: ["Larvitar", "Rock/Ground"],
+    247: ["Pupitar", "Rock/Ground"],
+    248: ["Tyranitar", "Rock/Dark"],
+    249: ["Lugia", "Psychic/Flying"],
+    250: ["Ho-Oh", "Fire/Flying"],
+    251: ["Celebi", "Psychic/Grass"],    # Gen 2 ends here
+    351: ["Castform", "Normal"]
 }
 pokeys = list(pokemon.keys())
+
+Gen1_keys = pokeys[1-1:151+1]  # 1-151
+Gen2_keys = pokeys[152-1:251+1]  # 152-251
+'''
+Gen3_keys = pokeys[252-1:386-1]
+Gen4_keys = pokeys[387-1:493-1]
+Gen5_keys = pokeys[494-1:649-1]
+Gen6_keys = pokeys[650-1:721-1]
+Gen7_keys = pokeys[722-1:809-1]
+Gen8_keys = pokeys[810-1:905-1]
+Gen9_keys = pokeys[906-1:1025-1]
+'''
+
+Alolan_Form = {}
+Galarian_Form = {}
+Hisuian_Form = {}
+Paldean_Form = {}
+Multiform = {    # Some don't change type between forms/modes
+    "Castform": [351,
+                 {"Normal Form": "Normal",
+                  "Sunny Form": "Fire",
+                  "Rainy Form": "Water ",
+                  "Snowy Form": "Ice"}]
+}
 trick = 0
 for index, i in enumerate(pokemon):
-    if inp == pokemon[i][0]:
+    if inp == pokemon[i][0]:    # -WHERE
+        # names
+        if pokeys[1-1] < pokeys[index] <= pokeys[151-1]:    # --Generations
+            print("Generation I")
+        elif pokeys[152-1] <= pokeys[index] <= pokeys[251-1]:
+            print("Generation II")
         print(f"Name: {pokemon[i][0]} | Pokedex number: {pokeys[index]} | Type: {pokemon[i][1]}")
+        if inp in Multiform:    # --Forms
+            print(Multiform[inp][1])
         trick = 1
         break
-    elif inp == str(i):
+    elif inp == str(i):    # -WHERE
+        # numbers
+        try:
+            if pokeys[int(inp) - 1] in Gen1_keys:    # --Generations
+                print("Generation I")
+            elif pokeys[int(inp) - 1] in Gen2_keys:
+                print("Generation II")
+        except IndexError:
+            print("The pokemon has not yet been assigned to a generation.")
         print(f"Name: {pokemon[i][0]} | Pokedex number: {pokeys[index]} | Type: {pokemon[i][1]}")
+        for mi in Multiform:    # --Forms
+            if int(inp) == Multiform[mi][0]:
+                print(Multiform[mi][1])
         trick = 1
         break
+    elif inp in pokemon[i][1]:
+        print(f"{i}: {pokemon[i]}")
+        trick = 1
 
 if trick == 0:
     print("Your input has no match in the database!\n"
