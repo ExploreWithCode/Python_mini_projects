@@ -252,20 +252,31 @@ pokemon = {
     249: ["Lugia", "Psychic/Flying"],
     250: ["Ho-Oh", "Fire/Flying"],
     251: ["Celebi", "Psychic/Grass"],    # Gen 2 ends here
+    252: ["Treecko", "Grass"],
+    253: ["Grovyle", "Grass"],
+    254: ["Sceptile", "Grass"],
+    255: ["Torchic", "Fire"],
+    256: ["Combusken", "Fire/Fighting"],
+    257: ["Blaziken", "Fire/Fighting"],
+    258: ["Mudkip", "Water"],
+    259: ["Marshtomp", "Water/Ground"],
+    260: ["Swampert", "Water/Ground"],
+    261: ["Poochyena", "Dark"],
+    262: ["Mightyena", "Dark"],
     351: ["Castform", "Normal"]
 }
 pokeys = list(pokemon.keys())
 
-Gen1_keys = pokeys[1-1:151+1]  # 1-151
-Gen2_keys = pokeys[152-1:251+1]  # 152-251
+Gen1_keys = pokeys[1-1:151]  # 1-151
+Gen2_keys = pokeys[152-1:251]  # 152-251
 '''
-Gen3_keys = pokeys[252-1:386-1]
-Gen4_keys = pokeys[387-1:493-1]
-Gen5_keys = pokeys[494-1:649-1]
-Gen6_keys = pokeys[650-1:721-1]
-Gen7_keys = pokeys[722-1:809-1]
-Gen8_keys = pokeys[810-1:905-1]
-Gen9_keys = pokeys[906-1:1025-1]
+Gen3_keys = pokeys[252-1:386]  # 252-386
+Gen4_keys = pokeys[387-1:493]  # 387-493
+Gen5_keys = pokeys[494-1:649]  # 494-649
+Gen6_keys = pokeys[650-1:721]  # 650-721
+Gen7_keys = pokeys[722-1:809]  # 722-809
+Gen8_keys = pokeys[810-1:905]  # 810-905
+Gen9_keys = pokeys[906-1:1025]  # 906-1025
 '''
 
 Alolan_Form = {}
