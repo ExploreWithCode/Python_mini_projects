@@ -649,7 +649,79 @@ pokemon = {
     646: ["Kyurem", "Dragon/Ice"],
     647: ["Keldeo", "Water/Fighting"],
     648: ["Meloetta", "Normal/Psychic"],
-    649: ["Genesect", "Bug/Steel"],    # Gen 4 ends here
+    649: ["Genesect", "Bug/Steel"],    # Gen 5 ends here
+    650: ["Chespin", "Grass"],
+    651: ["Quilladin", "Grass"],
+    652: ["Chesnaught", "Grass/Fighting"],
+    653: ["Fennekin", "Fire"],
+    654: ["Braixen", "Fire"],
+    655: ["Delphox", "Fire,Psychic"],
+    656: ["Froakie", "Water"],
+    657: ["Frogadier", "Water"],
+    658: ["Greninja", "Water,Dark"],
+    659: ["Bunnelby", "Normal"],
+    660: ["Diggersby", "Normal/Ground"],
+    661: ["Fletchling", "Normal/Flying"],
+    662: ["Fletchinder", "Fire/Flying"],
+    663: ["Talonflame", "Fire/Flying"],
+    664: ["Scatterbug", "Bug"],
+    665: ["Spewpa", "Bug"],
+    666: ["Vivillon", "Bug/Flying"],
+    667: ["Litleo", "Fire/Normal"],
+    668: ["Pyroar", "Fire/Normal"],
+    669: ["Flabébé", "Fairy"],
+    670: ["Floette", "Fairy"],
+    671: ["Florges", "Fairy"],
+    672: ["Skiddo", "Grass"],
+    673: ["Gogoat", "Grass"],
+    674: ["Pancham", "Fighting"],
+    675: ["Pangoro", "Fighting/Dark"],
+    676: ["Furfrou", "Normal"],
+    677: ["Espurr", "Psychic"],
+    678: ["Meowstic", "Psychic"],
+    679: ["Honedge", "Steel/Ghost"],
+    680: ["Doublade", "Steel/Ghost"],
+    681: ["Aegislash", "Steel/Ghost"],
+    682: ["Spritzee", "Fairy"],
+    683: ["Aromatisse", "Fairy"],
+    684: ["Swirlix", "Fairy"],
+    685: ["Slurpuff", "Fairy"],
+    686: ["Inkay", "Dark/Psychic"],
+    687: ["Malamar", "Dark/Psychic"],
+    688: ["Binacle", "Rock/Water"],
+    689: ["Barbaracle", "Rock/Water"],
+    690: ["Skrelp", "Poison/Water"],
+    691: ["Dragalge", "Poison/Dragon"],
+    692: ["Clauncher", "Water"],
+    693: ["Clawitzer", "Water"],
+    694: ["Helioptile", "Electric/Normal"],
+    695: ["Heliolisk", "Electric/Normal"],
+    696: ["Tyrunt", "Rock/Dragon"],
+    697: ["Tyrantrum", "Rock/Dragon"],
+    698: ["Amaura", "Rock/Ice"],
+    699: ["Aurorus", "Rock/Ice"],
+    700: ["Sylveon", "Fairy"],
+    701: ["Hawlucha", "Fighting/Flying"],
+    702: ["Dedenne", "Electric/Fairy"],
+    703: ["Carbink", "Rock/Fairy"],
+    704: ["Goomy", "Dragon"],
+    705: ["Sliggoo", "Dragon"],
+    706: ["Goodra", "Dragon"],
+    707: ["Klefki", "Steel/Fairy"],
+    708: ["Phantump", "Ghost/Grass"],
+    709: ["Trevenant", "Ghost/Grass"],
+    710: ["Pumpkaboo", "Grass/Grass"],
+    711: ["Gourgeist", "Ghost/Grass"],
+    712: ["Bergmite", "Ice"],
+    713: ["Avalugg", "Ice"],
+    714: ["Noibat", "Flying/Dragon"],
+    715: ["Noivern", "Flying/Dragon"],
+    716: ["Xerneas", "Fairy"],
+    717: ["Yveltal", "Dark/Flying"],
+    718: ["Zygarde", "Dragon/Ground"],
+    719: ["Diancie", "Rock/Fairy"],
+    720: ["Hoopa", "Psychic/Ghost"],
+    721: ["Volcanion", "Fire/Water"]
 }
 pokeys = list(pokemon.keys())
 
@@ -657,9 +729,9 @@ Gen1_keys = pokeys[1-1:151]  # 1-151
 Gen2_keys = pokeys[152-1:251]  # 152-251
 Gen3_keys = pokeys[252-1:386]  # 252-386
 Gen4_keys = pokeys[387-1:493]  # 387-493
-'''
 Gen5_keys = pokeys[494-1:649]  # 494-649
 Gen6_keys = pokeys[650-1:721]  # 650-721
+'''
 Gen7_keys = pokeys[722-1:809]  # 722-809
 Gen8_keys = pokeys[810-1:905]  # 810-905
 Gen9_keys = pokeys[906-1:1025]  # 906-1025
@@ -688,6 +760,10 @@ for index, i in enumerate(pokemon):
             print("Generation III")
         elif pokeys[387-1] <= pokeys[index] <= pokeys[493-1]:
             print("Generation IV")
+        elif pokeys[494-1] <= pokeys[index] <= pokeys[649-1]:
+            print("Generation V")
+        elif pokeys[650-1] <= pokeys[index] <= pokeys[721-1]:
+            print("Generation VI")
         print(f"Name: {pokemon[i][0]} | Pokedex number: {pokeys[index]} | Type: {pokemon[i][1]}")
         if inp in Multiform:    # --Forms
             print(Multiform[inp][1])
@@ -704,6 +780,10 @@ for index, i in enumerate(pokemon):
                 print("Generation III")
             elif pokeys[int(inp) - 1] in Gen4_keys:
                 print("Generation IV")
+            elif pokeys[int(inp) - 1] in Gen5_keys:
+                print("Generation V")
+            elif pokeys[int(inp) - 1] in Gen6_keys:
+                print("Generation VI")
         except IndexError:
             print("The pokemon has not yet been assigned to a generation.")
         print(f"Name: {pokemon[i][0]} | Pokedex number: {pokeys[index]} | Type: {pokemon[i][1]}")
