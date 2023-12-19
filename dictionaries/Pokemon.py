@@ -721,7 +721,135 @@ pokemon = {
     718: ["Zygarde", "Dragon/Ground"],
     719: ["Diancie", "Rock/Fairy"],
     720: ["Hoopa", "Psychic/Ghost"],
-    721: ["Volcanion", "Fire/Water"]
+    721: ["Volcanion", "Fire/Water"],
+    722: ["Rowlet", "Grass/Flying"],
+    723: ["Dartrix", "Grass/Flying"],
+    724: ["Decidueye", "Grass/Ghost"],
+    725: ["Litten", "Fire"],
+    726: ["Torracat", "Fire"],
+    727: ["Incineroar", "Fire/Dark"],
+    728: ["Popplio", "Water"],
+    729: ["Brionne", "Water"],
+    730: ["Primarina", "Water/Fairy"],
+    731: ["Pikipek", "Normal/Flying"],
+    732: ["Trumbeak", "Normal/Flying"],
+    733: ["Toucannon", "Normal/Flying"],
+    734: ["Yungoos", "Normal"],
+    735: ["Gumshoos", "Normal"],
+    736: ["Grubbin", "Bug"],
+    737: ["Charjabug", "Bug/Electric"],
+    738: ["Vikavolt", "Bug/Electric"],
+    739: ["Crabrawler", "Fighting"],
+    740: ["Crabominable", "Fighting/Ice"],
+    741: ["Oricorio", "Fire/Flying"],
+    742: ["Cutiefly", "Bug/Fairy"],
+    743: ["Ribombee", "Bug/Fairy"],
+    744: ["Rockruff", "Rock"],
+    745: ["Lycanroc", "Rock"],
+    746: ["Wishiwashi", "Water"],
+    747: ["Mareanie", "Poison/Water"],
+    748: ["Toxapex", "Poison/Water"],
+    749: ["Mudbray", "Ground"],
+    750: ["Mudsdale", "Ground"],
+    751: ["Dewpider", "Water/Bug"],
+    752: ["Araquanid", "Water/Bug"],
+    753: ["Fomantis", "Grass"],
+    754: ["Lurantis", "Grass"],
+    755: ["Morelull", "Grass/Fairy"],
+    756: ["Shiinotic", "Grass/Fairy"],
+    757: ["Salandit", "Poison/Fire"],
+    758: ["Saland", "Poison/Fire"],
+    759: ["Stufful", "Normal/Fighting"],
+    760: ["Bewear", "Normal/Fighting"],
+    761: ["Bounsweet", "Grass"],
+    762: ["Steenee", "Grass"],
+    763: ["Tsareena", "Grass"],
+    764: ["Comfey", "Fairy"],
+    765: ["Oranguru", "Normal/Psychic"],
+    766: ["Passimian", "Fighting"],
+    767: ["Wimpod", "Bug/Water"],
+    768: ["Golisopod", "Bug/Water"],
+    769: ["Sandygast", "Ghost/Ground"],
+    770: ["Palossand", "Ghost/Ground"],
+    771: ["Pyukumuku", "Water"],
+    772: ["Type: Null", "Normal"],
+    773: ["Silvally", "Normal"],
+    774: ["Minior", "Rock/Flying"],
+    775: ["Komala", "Normal"],
+    776: ["Turtonator", "Fire/Dragon"],
+    777: ["Togedemaru", "Electric/Steel"],
+    778: ["Mimikyu", "Ghost/Fairy"],
+    779: ["Bruxish", "Water/Psychic"],
+    780: ["Drampa", "Normal/Dragon"],
+    781: ["Dhelmise", "Ghost/Grass"],
+    782: ["Jangmo-o", "Dragon"],
+    783: ["Hakamo-o", "Dragon/Fighting"],
+    784: ["Kommo-o", "Dragon/Fighting"],
+    785: ["Tapu Koko", "Electric/Fairy"],
+    786: ["Tapu Lele", "Psychic/Fairy"],
+    787: ["Tapu Bulu", "Grass/Fairy"],
+    788: ["Tapu Fini", "Water/Fairy"],
+    789: ["Cosmog", "Psychic"],
+    790: ["Cosmoem", "Psychic"],
+    791: ["Solgaleo", "Psychic/Steel"],
+    792: ["Lunala", "Psychic/Ghost"],
+    793: ["Nihilego", "Rock/Poison"],
+    794: ["Buzzwole", "Bug/Fighting"],
+    795: ["Pheromosa", "Bug/Fighting"],
+    796: ["Xurkitree", "Electric"],
+    797: ["Celesteela", "Steel/Flying"],
+    798: ["Kartana", "Grass/Steel"],
+    799: ["Guzzlord", "Dark/Dragon"],
+    800: ["Necrozma", "Psychic"],
+    801: ["Magearna", "Steel/Fairy"],
+    802: ["Marshadow", "Fighting/Ghost"],
+    803: ["Poipole", "Poison"],
+    804: ["Naganadel", "Poison/Dragon"],
+    805: ["Stakataka", "Rock/Steel"],
+    806: ["Blacephalon", "Fire/Ghost"],
+    807: ["Zeraora", "Electric"],
+    808: ["Meltan", "Steel"],
+    809: ["Melmetal", "Steel"],
+    810: ["Grookey", "Grass"],
+    811: ["Thwackey", "Grass"],
+    812: ["Rillaboom", "Grass"],
+    813: ["Scorbunny", "Fire"],
+    814: ["Raboot", "Fire"],
+    815: ["Cinderace", "Fire"],
+    816: ["Sobble", "Water"],
+    817: ["Drizzile", "Water"],
+    818: ["Inteleon", "Water"],
+    819: ["Skwovet", "Normal"],
+    820: ["Greedent", "Normal"],
+    821: ["Rookidee", "Flying"],
+    822: ["Corvisquire", "Flying"],
+    823: ["Corviknight", "Flying/Steel"],
+    824: ["Blipbug", "Bug"],
+    825: ["Dottler", "Bug/Psychic"],
+    826: ["Orbeetle", "Bug/Psychic"],
+    827: ["Nickit", "Dark"],
+    828: ["Thievul", "Dark"],
+    829: ["Gossifleur", "Grass"],
+    830: ["Eldegoss", "Grass"],
+    831: ["Wooloo", "Normal"],
+    832: ["Dubwool", "Normal"],
+    833: ["Chewtle", "Water"],
+    834: ["Drednaw", "Water/Rock"],
+    835: ["Yamper", "Electric"],
+    836: ["Boltund", "Electric"],
+    837: ["Rolycoly", "Rock"],
+    838: ["Carkol", "Rock/Fire"],
+    839: ["Coalossal", "Rock/Fire"],
+    840: ["Applin", "Grass/Dragon"],
+    841: ["Flapple", "Grass/Dragon"],
+    842: ["Appletun", "Grass/Dragon"],
+    843: ["Silicobra", "Ground"],
+    844: ["Sandaconda", "Ground"],
+    845: ["Cramorant", "Flying/Water"],
+    846: ["Arrokuda", "Water"],
+    847: ["Barraskewda", "Water"],
+    848: ["Toxel", "Electric/Poison"],
+    849: ["Toxtricity", "Electric/Poison"],
 }
 pokeys = list(pokemon.keys())
 
@@ -731,8 +859,8 @@ Gen3_keys = pokeys[252-1:386]  # 252-386
 Gen4_keys = pokeys[387-1:493]  # 387-493
 Gen5_keys = pokeys[494-1:649]  # 494-649
 Gen6_keys = pokeys[650-1:721]  # 650-721
-'''
 Gen7_keys = pokeys[722-1:809]  # 722-809
+'''
 Gen8_keys = pokeys[810-1:905]  # 810-905
 Gen9_keys = pokeys[906-1:1025]  # 906-1025
 '''
@@ -764,6 +892,8 @@ for index, i in enumerate(pokemon):
             print("Generation V")
         elif pokeys[650-1] <= pokeys[index] <= pokeys[721-1]:
             print("Generation VI")
+        elif pokeys[722-1] <= pokeys[index] <= pokeys[809-1]:
+            print("Generation VII")
         print(f"Name: {pokemon[i][0]} | Pokedex number: {pokeys[index]} | Type: {pokemon[i][1]}")
         if inp in Multiform:    # --Forms
             print(Multiform[inp][1])
@@ -784,6 +914,8 @@ for index, i in enumerate(pokemon):
                 print("Generation V")
             elif pokeys[int(inp) - 1] in Gen6_keys:
                 print("Generation VI")
+            elif pokeys[int(inp) - 1] in Gen7_keys:
+                print("Generation VII")
         except IndexError:
             print("The pokemon has not yet been assigned to a generation.")
         print(f"Name: {pokemon[i][0]} | Pokedex number: {pokeys[index]} | Type: {pokemon[i][1]}")
