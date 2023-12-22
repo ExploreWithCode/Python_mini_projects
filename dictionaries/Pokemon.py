@@ -467,7 +467,7 @@ pokemon = {
     464: ["Rhyperior", "Ground/Rock"],
     465: ["Tangrowth", "Grass"],
     466: ["Electivire", "Electric"],
-    467: ["Marmortar", "Fire"],
+    467: ["Magmortar", "Fire"],
     468: ["Togekiss", "Fairy/Flying"],
     469: ["Yanmega", "Bug/Flying"],
     470: ["Leafeon", "Grass"],
@@ -758,7 +758,7 @@ pokemon = {
     755: ["Morelull", "Grass/Fairy"],
     756: ["Shiinotic", "Grass/Fairy"],
     757: ["Salandit", "Poison/Fire"],
-    758: ["Saland", "Poison/Fire"],
+    758: ["Salazzle", "Poison/Fire"],
     759: ["Stufful", "Normal/Fighting"],
     760: ["Bewear", "Normal/Fighting"],
     761: ["Bounsweet", "Grass"],
@@ -1025,7 +1025,7 @@ pokemon = {
     1022: ["Iron Boulder", "Rock/Psychic"],
     1023: ["Iron Crown", "Steel/Psychic"],
     1024: ["Terapagos", "Normal"],
-    1025: ["Pecharunt", "Poison/Ghost"]
+    1025: ["Pecharunt", "Poison/Ghost"]    # Gen 9 ends here
 }
 pokeys = list(pokemon.keys())
 
@@ -1040,10 +1040,136 @@ Gen8_keys = pokeys[810-1:905]  # 810-905
 Gen9_keys = pokeys[906-1:1025]  # 906-1025
 
 
-Alolan_Form = {}
-Galarian_Form = {}
-Hisuian_Form = {}
-Paldean_Form = {}
+Alolan_Form = {
+    "Rattata": [19,
+                {"Normal Form": "Normal",
+                 "Alolan Form": "Dark/Normal"}],
+    "Raticate": [20,
+                 {"Normal Form": "Normal",
+                  "Alolan Form": "Dark/Normal"}],
+    "Raichu": [26,
+               {"Normal Form": "Electric",
+                "Alolan Form": "Electric/Psychic"}],
+    "Sandshrew": [27,
+                  {"Normal Form": "Ground",
+                   "Alolan Form": "Ice/Steel"}],
+    "Sandslash": [28,
+                  {"Normal Form": "Ground",
+                   "Alolan Form": "Ice/Steel"}],
+    "Vulpix": [37,
+               {"Normal Form": "Fire",
+                "Alolan Form": "Ice"}],
+    "Ninetales": [38,
+                  {"Normal Form": "Ground",
+                   "Alolan Form": "Ice/Fairy"}],
+    "Diglett": [50,
+                {"Normal Form": "Ground",
+                 "Alolan Form": "Ground/Steel"}],
+    "Dugtrio": [51,
+                {"Normal Form": "Ground",
+                 "Alolan Form": "Ground/Steel"}],
+    "Meowth": [52,
+               {"Normal Form": "Normal",
+                "Alolan Form": "Dark"}],
+    "Persian": [53,
+                {"Normal Form": "Normal",
+                 "Alolan Form": "Dark"}],
+    "Geodude": [74,
+                {"Normal Form": "Rock/Ground",
+                 "Alolan Form": "Rock/Electric"}],
+    "Graveler": [75,
+                 {"Normal Form": "Rock/Ground",
+                  "Alolan Form": "Rock/Electric"}],
+    "Golem": [76,
+              {"Normal Form": "Rock/Ground",
+               "Alolan Form": "Rock/Electric"}],
+    "Grimer": [88,
+               {"Normal Form": "Poison",
+                "Alolan Form": "Poison/Dark"}],
+    "Muk": [89,
+            {"Normal Form": "Poison",
+             "Alolan Form": "Poison/Dark"}],
+    "Exeggutor": [103,
+                  {"Normal Form": "Grass/Psychic",
+                   "Alolan Form": "Grass/Dragon"}],
+    "Marowak": [105,
+                {"Normal Form": "Ground",
+                 "Alolan Form": "Fire/Ghost"}]
+}
+Galarian_Form = {
+    "Meowth": [52,
+               {"Normal Form": "Normal",
+                "Galarian Form": "Steel"}],
+    "Ponyta": [77,
+               {"Normal Form": "Fire",
+                "Galarian Form": "Psychic"}],
+    "Rapidash": [78,
+                 {"Normal Form": "Fire",
+                  "Galarian Form": "Psychic/Fairy"}],
+    "Slowpoke": [79,
+                 {"Normal Form": "Water/Psychic",
+                  "Galarian Form": "Psychic"}],
+    "Slowbro": [80,
+                {"Normal Form": "Water/Psychic",
+                 "Galarian Form": "Poison/Psychic"}],
+    "Farfetch'd": [83,
+                   {"Normal Form": "Normal/Flying",
+                    "Galarian Form": "Fighting"}],
+    "Weezing": [110,
+                {"Normal Form": "Poison",
+                 "Galarian Form": "Poison/Fairy"}],
+    "Mr. Mime": [122,
+                 {"Normal Form": "Psychic/Fairy",
+                  "Galarian Form": "Ice/Psychic"}],
+    "Articuno": [144,
+                 {"Normal Form": "Ice/Flying",
+                  "Galarian Form": "Psychic/Flying"}],
+    "Zapdos": [145,
+               {"Normal Form": "Electric/Flying",
+                "Galarian Form": "Fighting/Flying"}],
+    "Moltres": [146,
+                {"Normal Form": "Fire/Flying",
+                 "Galarian Form": "Dark/Flying"}],
+    "Slowking": [199,
+                 {"Normal Form": "Water/Psychic",
+                  "Galarian Form": "Poison/Psychic"}],
+    "Corsola": [222,
+                {"Normal Form": "Water/Rock",
+                 "Galarian Form": "Ghost"}],
+}
+Hisuian_Form = {
+    "Growlithe": [58,
+                  {"Normal Form": "Fire",
+                   "Hisuian Form": "Fire/Rock"}],
+    "Voltorb": [100,
+                {"Normal Form": "Electric",
+                 "Hisuian Form": "Electric/Grass"}],
+    "Electrode": [101,
+                  {"Normal Form": "Electric",
+                   "Hisuian Form": "Electric/Grass"}],
+    "Arcanine": [59,
+                 {"Normal Form": "Fire",
+                  "Hisuian Form": "Fire/Rock"}],
+    "Typhlosion": [157,
+                   {"Normal Form": "Fire",
+                    "Hisuian Form": "Fire/Ghost"}],
+    "Qwilfish": [211,
+                 {"Normal Form": "Water/Poison",
+                  "Hisuian Form": "Dark/Poison"}],
+    "Sneasel": [215,
+                {"Normal Form": "Dark/Ice",
+                 "Hisuian Form": "Fighting/Poison"}],
+}
+Paldean_Form = {
+    "Tauros": [128,
+               {"Normal Form": "Normal",
+                "Paldean Form (Combat Breed)": "Fighting",
+                "Paldean Form (Blaze Breed)": "Fighting/Fire",
+                "Paldean Form (Aqua Breed)": "Fighting/Water"}],
+    "Wooper": [194,
+               {"Normal Form": "Water/Ground",
+                "Paldean Form": "Poison/Ground"}],
+}
 Multiform = {    # Some don't change type between forms/modes
     "Castform": [351,
                  {"Normal Form": "Normal",
@@ -1076,6 +1202,14 @@ for index, i in enumerate(pokemon):
         print(f"Name: {pokemon[i][0]} | Pokedex number: {pokeys[index]} | Type: {pokemon[i][1]}")
         if inp in Multiform:    # --Forms
             print(Multiform[inp][1])
+        if inp in Alolan_Form:
+            print(Alolan_Form[inp][1])
+        if inp in Galarian_Form:
+            print(Galarian_Form[inp][1])
+        if inp in Hisuian_Form:
+            print(Hisuian_Form[inp][1])
+        if inp in Paldean_Form:
+            print(Paldean_Form[inp][1])
         trick = 1
         break
     elif inp == str(i):    # -WHERE
@@ -1105,6 +1239,18 @@ for index, i in enumerate(pokemon):
         for mi in Multiform:    # --Forms
             if int(inp) == Multiform[mi][0]:
                 print(Multiform[mi][1])
+        for mi in Alolan_Form:
+            if int(inp) == Alolan_Form[mi][0]:
+                print(Alolan_Form[mi][1])
+        for mi in Galarian_Form:
+            if int(inp) == Galarian_Form[mi][0]:
+                print(Galarian_Form[mi][1])
+        for mi in Hisuian_Form:
+            if int(inp) == Hisuian_Form[mi][0]:
+                print(Hisuian_Form[mi][1])
+        for mi in Paldean_Form:
+            if int(inp) == Paldean_Form[mi][0]:
+                print(Paldean_Form[mi][1])
         trick = 1
         break
     elif inp in pokemon[i][1]:
