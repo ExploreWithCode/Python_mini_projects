@@ -1039,7 +1039,6 @@ Gen7_keys = pokeys[722-1:809]  # 722-809
 Gen8_keys = pokeys[810-1:905]  # 810-905
 Gen9_keys = pokeys[906-1:1025]  # 906-1025
 
-
 Alolan_Form = {
     "Rattata": [19,
                 {"Normal Form": "Normal",
@@ -1136,6 +1135,12 @@ Galarian_Form = {
     "Corsola": [222,
                 {"Normal Form": "Water/Rock",
                  "Galarian Form": "Ghost"}],
+    "Zigzagoon": [263,
+                  {"Normal Form": "Normal",
+                   "Galarian Form": "Dark/Normal"}],
+    "Linoone": [264,
+                {"Normal Form": "Normal",
+                 "Galarian Form": "Dark/Normal"}],
 }
 Hisuian_Form = {
     "Growlithe": [58,
@@ -1162,20 +1167,52 @@ Hisuian_Form = {
 }
 Paldean_Form = {
     "Tauros": [128,
-               {"Normal Form": "Normal",
-                "Paldean Form (Combat Breed)": "Fighting",
+               {"Paldean Form (Combat Breed)": "Fighting",
                 "Paldean Form (Blaze Breed)": "Fighting/Fire",
                 "Paldean Form (Aqua Breed)": "Fighting/Water"}],
     "Wooper": [194,
-               {"Normal Form": "Water/Ground",
-                "Paldean Form": "Poison/Ground"}],
+               {"Paldean Form": "Poison/Ground"}],
 }
 Multiform = {    # Some don't change type between forms/modes
+    "Charizard": [6,
+                  {"Mega Charizard X": "Fire/Dragon",
+                   "Mega Charizard Y": "Fire/Flying"}],
+    "Pinsir": [127,
+               {"Mega Pinsir": "Bug/Flying"}],
+    "Gyarados": [130,
+                 {"Mega Gyarados": "Water/Dark"}],
+    "Mewtwo": [150,
+               {"Mega Mewtwo X": "Psychic/Fighting",
+                "Mega Mewtwo Y": "Psychic"}],
+    "Ampharos": [181,
+                 {"Mega Ampharos": "Electric/Dragon"}],
+    "Sceptile": [254,
+                 {"Mega Sceptile": "Grass/Dragon"}],
+    "Aggron": [306,
+               {"Mega Aggron": "Steel"}],
+    "Altaria": [334,
+                {"Mega Altaria": "Dragon/Fairy"}],
     "Castform": [351,
-                 {"Normal Form": "Normal",
-                  "Sunny Form": "Fire",
-                  "Rainy Form": "Water ",
-                  "Snowy Form": "Ice"}]
+                 {"Sunny Form": "Fire",
+                  "Rainy Form": "Water",
+                  "Snowy Form": "Ice"}],
+    "Groudon": [383,
+                {"Primal Groudon": "Ground/Fire"}],
+    "Wormadam": [413,
+                 {"Plant Cloak": "Bug/Grass",
+                  "Sandy Cloak": "Bug/Ground",
+                  "Trash Cloak": "Bug/Steel"}],
+    "Lopunny": [428,
+                {"Mega Lopunny": "Normal/Fighting"}],
+    "Rotom": [479,
+              {"Heat Rotom": "Electric/Fire",
+               "Wash Rotom": "Electric/Water",
+               "Frost Rotom": "Electric/Ice",
+               "Fan Rotom": "Electric/Flying",
+               "Mow Rotom": "Electric/Grass"}],
+    "Shaymin": [492,
+                {"Land Forme": "Grass",
+                 "Sky Forme": "Grass/Flying"}],
 }
 trick = 0
 for index, i in enumerate(pokemon):
