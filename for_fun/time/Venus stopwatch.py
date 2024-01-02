@@ -2,7 +2,7 @@ import time
 from IPython.display import clear_output
 print("The solar time model is used for this stopwatch. \n More info here: https://lco.global/spacebook/sky/sidereal-time/"
       " | https://science.nasa.gov/venus/facts/ | \n https://en.wikipedia.org/wiki/Solar_time | https://en.wikipedia.org/wiki/Synodic_day")
-ratio = 20995200 / (24*60*60)
+ratio = 116.75
 print(f'A day on Venus lasts {ratio} Earth days.')
 vday = 0
 while vday <= 365:
