@@ -2,7 +2,7 @@ import time
 from IPython.display import clear_output
 print("The solar time model is used for this stopwatch. \n More info here: https://lco.global/spacebook/sky/sidereal-time/"
       " | https://science.nasa.gov/jupiter/moons/io/facts/ | \n https://en.wikipedia.org/wiki/Solar_time | https://en.wikipedia.org/wiki/Synodic_day")
-ratio = 1.7624
+ratio = 1.769137786
 print(f"A day on Io, Jupiter's moon, lasts {ratio} Earth days.")
 ioday = 0
 while ioday <= 365:
