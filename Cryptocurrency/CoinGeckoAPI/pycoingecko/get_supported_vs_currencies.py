@@ -7,7 +7,28 @@ supp1 = (supp_vs_curr[0:11])
 supp2 = supp_vs_curr[11:-4]
 supp3 = (supp_vs_curr[-2], supp_vs_curr[-1])
 supp4 = supp_vs_curr[-4:-2]
-print(f"Cryptocurrencies:\n{supp1}\n")
-print(f"Fiat currencies:\n{supp2}\n")
-print(f"Bitcoin Units:\n{supp3}\n")
-print(f"Commodities:\n{supp4}")
+
+print(f"\nCryptocurrencies:")
+supp1CAP = []
+for i in supp1:
+    i = str(i).upper()
+    supp1CAP.append(i)
+print(supp1CAP)
+print(f"\nFiat currencies:")
+supp2CAP = []
+for i in supp2:
+    i = str(i).upper()
+    supp2CAP.append(i)
+print(supp2CAP)
+print(f"\nBitcoin Units:")
+supp3CAP = []
+for i in supp3:
+    i = str(i).upper()
+    supp3CAP.append(i)
+print(supp3CAP)
+print(f"\nCommodities:")
+supp4CAP = []
+for i in supp4:
+    i = str(i).upper()
+    supp4CAP.append(i)
+print(supp4CAP)
