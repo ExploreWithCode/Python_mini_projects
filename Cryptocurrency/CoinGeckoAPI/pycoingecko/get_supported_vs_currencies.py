@@ -14,7 +14,7 @@ for i in supp1:
     i = str(i).upper()
     supp1CAP.append(i)
 print(supp1CAP)
-print(f"\nFiat currencies:")
+print(f"\nFiat Currencies:")
 supp2CAP = []
 for i in supp2:
     i = str(i).upper()
