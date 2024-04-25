@@ -5,5 +5,5 @@ print("Here are some cryptocurrency categories:\n")
 num = 0
 for i in cats:
     num = num+1
-    print(num)
+    print(f"{num}.")
     print(i, "\n")
