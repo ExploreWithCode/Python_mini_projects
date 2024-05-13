@@ -8,7 +8,7 @@ def calculate_desired():
     val = goal-in_am
 
     if timeframe <= 0:
-        result_label.config(text="Error: Timeframe should be greater than 0.")
+        result_label.config(text="Error: Timeframe should be greater than 0!")
     else:
         result = round((val / timeframe), 2)
         result_label.config(text=f"You must get {result} per year or {round(result / 12, 2)} per month.", relief=tk.GROOVE, bg="AliceBlue")
