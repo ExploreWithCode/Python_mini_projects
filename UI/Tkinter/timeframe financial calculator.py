@@ -16,7 +16,8 @@ def calculate_desired():
 
 root = tk.Tk()
 root.title('Target amount')
-root.iconbitmap('C:/Users/Tsimos/Downloads/Icons/python_square_icon_icon_257067.ico')
+# Use a custom icon for the window
+# root.iconbitmap('C:/Users/User/Folder/file_name.ico')
 root.config(bg="AliceBlue")
 
 tk.Label(root, text="Target amount:", bg="AliceBlue").pack()
