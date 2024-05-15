@@ -13,10 +13,8 @@ def light():
 
 
 dark_theme = Button(root, text="🌚 Dark theme", command=dark, bg="whitesmoke")
-# dark_theme.grid(row=0, column=0)
-light_theme = Button(root, text="🌝 Light theme", command=light, bg="whitesmoke")
-# light_theme.grid(row=0, column=1)
 dark_theme.pack()
+light_theme = Button(root, text="🌝 Light theme", command=light, bg="whitesmoke")
 light_theme.pack()
 
 
